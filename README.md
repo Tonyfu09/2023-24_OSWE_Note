@@ -10,7 +10,7 @@ Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%
 
 # The Box have been pwanded
 |BoxName|TechForBox|
-|---|----|---|
-
+|---|---|
+|BoxA|SQLi|
 
 
