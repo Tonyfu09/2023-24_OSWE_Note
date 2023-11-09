@@ -13,4 +13,8 @@ Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%
 |---|---|
 |BoxA|SQLi|
 
+Markup for Github
+https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
+
+
 
