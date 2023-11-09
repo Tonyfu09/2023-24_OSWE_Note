@@ -8,10 +8,34 @@ Payload https://github.com/payloadbox/sql-injection-payload-list <br>
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%20Injection/ <br>
 
-# The Box have been pwanded
+# API Security
+
+GraphQLmap
+
+# The Box have been pwanded 
+
+From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview
+
 |BoxName|TechForBox|
 |---|---|
-|BoxA|SQLi|
+|Vault|SQLi|
+|Popcorn|SQLi|
+|Celestial|SQLi|
+|Blocky|SQLi|
+|Falafel|SQLi|
+|Zipper|SQLi|
+|Unattended|SQLi|
+|Help|SQLi|
+|Mango|SQLi|
+|Schooled|SQLi|
+|Sink|SQLi|
+|Monitors|SQLi|
+|Magic|SQLi|
+|Unobtainium|SQLi|
+|Crossfit|SQLi|
+|Crossfit2|SQLi|
+|Stacked|SQLi|
+|Fingerprint|SQLi|
 
 Markup for Github
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
