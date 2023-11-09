@@ -9,6 +9,8 @@ Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%20Injection/ <br>
 
 # The Box have been pwanded
+|BoxName|TechForBox|
+|---|----|---|
 
 
 
