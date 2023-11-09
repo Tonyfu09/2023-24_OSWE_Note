@@ -1,6 +1,6 @@
 ### 2023-24_OSWE Preparation
 
-## ATutor Authentication Bypass and RCE
+# ATutor Authentication Bypass and RCE
 
 ## ATutor LMS Type Juggling Vulnerability
 
