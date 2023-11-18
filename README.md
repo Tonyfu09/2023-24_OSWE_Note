@@ -16,6 +16,7 @@ GraphQLmap
 
 From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview
 
+# HTB
 |BoxName|TechForBox|OS|
 |---|---|---|
 |Vault|SQLi|Linux|
@@ -37,6 +38,19 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Stacked|SQLi|Linux|
 |Fingerprint|SQLi|Linux|
 |JSON|SQLi|Windows|
+
+# Vulnhub
+|BoxName|TechForBox|OS|
+|---|---|---|
+|Silky-CTF|SQLi|Linux|
+|bwapp|SQLi|Linux|
+|Homeless|SQLi|Linux|
+|Seattle|SQLi|Linux|
+|Ted 1|SQLi|Linux|
+|Raven 2|SQLi|Linux|
+|Potato|SQLi|Linux|
+|Secure Code 1|SQLi|Linux|
+|Pipe|SQLi|Linux|
 
 Markup for Github
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
