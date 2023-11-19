@@ -42,7 +42,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 # Vulnhub
 |BoxName|TechForBox|OS|
 |---|---|---|
-|Silky-CTF|SQLi|Linux|
+|Silky-CTF|Commands Injection|Linux|
 |bwapp|SQLi|Linux|
 |Homeless|SQLi|Linux|
 |Seattle|SQLi|Linux|
