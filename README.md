@@ -55,7 +55,6 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 Payload
 Command injection https://github.com/payloadbox/command-injection-payload-list <br>
 
-
 Markup for Github
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
 
