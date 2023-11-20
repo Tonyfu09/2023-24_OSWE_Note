@@ -43,7 +43,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |BoxName|TechForBox|OS|
 |---|---|---|
 |Silky-CTF|Commands Injection|Linux|
-|bwapp|SQLi|Linux|
+|bwapp|OWASP Top 10 Box|Linux|
 |Homeless|SQLi|Linux|
 |Seattle|SQLi|Linux|
 |Ted 1|SQLi|Linux|
