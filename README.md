@@ -1,4 +1,5 @@
 # 2023-24_OSWE Preparation
+The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability.
 
 # SQLi
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. 
@@ -39,7 +40,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Fingerprint|SQLi|Linux|
 |JSON|SQLi|Windows|
 
-# Vulnhub
+# Vulnhub (only for webvulnerility leads to RCE)
 |BoxName|TechForBox|OS|
 |---|---|---|
 |Silky-CTF|Commands Injection|Linux|
