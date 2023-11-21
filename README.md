@@ -45,7 +45,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |---|---|---|
 |Silky-CTF|Commands Injection|Linux|
 |bwapp|OWASP Top 10 Box|Linux|
-|Homeless|SQLi|Linux|
+|Homeless|Arbitrary file upload to LFI, code analysis|Linux|
 |Seattle|SQLi|Linux|
 |Ted 1|SQLi|Linux|
 |Raven 2|SQLi|Linux|
