@@ -40,7 +40,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Fingerprint|SQLi|Linux|
 |JSON|SQLi|Windows|
 
-# Vulnhub (only for webvulnerility leads to RCE)
+# Vulnhub (only for web vulnerility leads to RCE)
 |BoxName|TechForBox|OS|
 |---|---|---|
 |Silky-CTF|Commands Injection|Linux|
