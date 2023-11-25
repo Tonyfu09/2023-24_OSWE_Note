@@ -1,3 +1,5 @@
+# Disclaimer
+
 # 2023-24_OSWE Preparation
 The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability.
 
