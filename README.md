@@ -1,7 +1,23 @@
 # 2023-24_OSWE Preparation
 The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability.
 
-# SQLi
+# OSWAP Top 10
+
+## XSS to RCE
+
+## Bypassing File Upload Restrictions
+
+## Authentication Bypass to RCE
+
+## JavaScript Injection
+
+## PHP Type Juggling
+
+## XML External Entity (XXE) Attack
+
+## Server Side Template Injection (SSTI)
+
+## SQLi
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. 
 
 Resource
@@ -60,6 +76,9 @@ https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
 https://github.com/cbornstein/pymd5-collisions
 
 # OSWE Like Topic
+
+Source Code Audit
+
 ATutor Authentication Bypass and RCE
 
 ATutor LMS Type Juggling Vulnerability
