@@ -9,9 +9,6 @@ Payload https://github.com/payloadbox/sql-injection-payload-list <br>
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%20Injection/ <br>
 
-# API Security
-
-GraphQLmap
 
 # The Box have been pwanded 
 
@@ -87,5 +84,9 @@ Guacamole Lite Prototype Pollution
 
 Atmail Mail Server Appliance: from XSS to RCE archived
 
+# Post OSWE
+## API Security
+
+GraphQLmap
 
 
