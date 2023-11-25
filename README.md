@@ -1,7 +1,7 @@
 # 2023-24_OSWE Preparation
 The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability.
 
-# OSWAP Top 10
+# OSWAP Top 10 Related Topic
 
 ## XSS to RCE
 XSS Vulnerability Payload List https://github.com/payloadbox/xss-payload-list
