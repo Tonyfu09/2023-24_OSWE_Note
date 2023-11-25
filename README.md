@@ -4,6 +4,7 @@ The Summary here only forcus on web vulnerabilit and how we could get the initia
 # OSWAP Top 10
 
 ## XSS to RCE
+XSS Vulnerability Payload List https://github.com/payloadbox/xss-payload-list
 
 ## Bypassing File Upload Restrictions
 
