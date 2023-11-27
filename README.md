@@ -80,33 +80,25 @@ https://github.com/cbornstein/pymd5-collisions
 
 # OSWE Like Topic
 
-Source Code Audit
-
-ATutor Authentication Bypass and RCE
-
-ATutor LMS Type Juggling Vulnerability
-
-ManageEngine Applications Manager AMUserResourcesSyncServlet SQL Injection RCE
-
-Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
-
-DotNetNuke Cookie Deserialization RCE
-
-ERPNext Authentication Bypass and Server Side Template Injection
-
-openCRX Authentication Bypass and Remote Code Execution
-
-openITCOCKPIT XSS and OS Command Injection - Blackbox
-
-Concord Authentication Bypass to RCE
-
-Server-Side Request Forgery
-
-Guacamole Lite Prototype Pollution
-
-Atmail Mail Server Appliance: from XSS to RCE archived
+1. Source Code Audit
+2. ATutor Authentication Bypass and RCE
+	1. 
+	2. 
+3.  ATutor LMS Type Juggling Vulnerability
+4.  ManageEngine Applications Manager AMUserResourcesSyncServlet SQL Injection RCE
+5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
+6.  DotNetNuke Cookie Deserialization RCE
+7.  ERPNext Authentication Bypass and Server Side Template Injection
+8.  openCRX Authentication Bypass and Remote Code Execution
+9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
+10.  Concord Authentication Bypass to RCE
+11.  Server-Side Request Forgery
+12.  Guacamole Lite Prototype Pollution
+	1. 
+13.  Atmail Mail Server Appliance: from XSS to RCE archived
 
 # Post OSWE
+
 ## API Security
 
 GraphQLmap
