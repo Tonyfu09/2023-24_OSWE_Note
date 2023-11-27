@@ -93,8 +93,9 @@ https://github.com/cbornstein/pymd5-collisions
 9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
 10.  Concord Authentication Bypass to RCE
 11.  Server-Side Request Forgery
-12.  Guacamole Lite Prototype Pollution
+12.  Guacamole Lite Prototype Pollution	
 	1. test
+	2. test
 13.  Atmail Mail Server Appliance: from XSS to RCE archived
 
 # Post OSWE
