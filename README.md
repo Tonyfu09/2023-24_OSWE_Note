@@ -4,6 +4,11 @@ All Resources below is only for education purpose for everyone who wanted to lea
 # 2023-24_OSWE Preparation
 The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability.
 
+Course could helps 
+1. https://pentesterlab.com/
+2. 
+3. 
+
 # OSWAP Top 10 Related Topic
 
 ## XSS to RCE
