@@ -104,6 +104,6 @@ https://github.com/cbornstein/pymd5-collisions
 ## API Security
 //Task list
 - [x] GraphQLmap
-- [ ]
-- [ ]  
+- [ ] B
+- [ ] C
 
