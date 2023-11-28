@@ -103,6 +103,10 @@ https://github.com/cbornstein/pymd5-collisions
 
 ## API Security
 <!-- Task list -->
+
+Resources
+https://erev0s.com/blog/vampi-vulnerable-api-security-testing/
+
 - [x] GraphQLmap
 - [ ] B
 - [ ] C
