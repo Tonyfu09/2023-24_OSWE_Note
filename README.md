@@ -9,6 +9,9 @@ Course could helps
 2. 
 3. 
 
+OSWEer's Advice
+https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/
+
 # OSWAP Top 10 Related Topic
 
 ## XSS to RCE
