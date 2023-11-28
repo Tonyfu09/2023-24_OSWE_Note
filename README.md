@@ -102,7 +102,7 @@ https://github.com/cbornstein/pymd5-collisions
 # Post OSWE
 
 ## API Security
-//Task list
+<!-- Task list -->
 - [x] GraphQLmap
 - [ ] B
 - [ ] C
