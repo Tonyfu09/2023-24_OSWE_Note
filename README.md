@@ -17,7 +17,7 @@ https://sarthaksaini.com/about-me.html
 
 ## XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
-good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course
+good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
 ## Bypassing File Upload Restrictions
 
