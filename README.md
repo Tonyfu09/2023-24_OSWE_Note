@@ -12,7 +12,8 @@ Course could helps
 # OSWAP Top 10 Related Topic
 
 ## XSS to RCE
-XSS Vulnerability Payload List https://github.com/payloadbox/xss-payload-list
+XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list
+good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course
 
 ## Bypassing File Upload Restrictions
 
