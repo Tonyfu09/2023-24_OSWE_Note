@@ -10,8 +10,8 @@ Course could helps
 3. 
 
 OSWEer's Advice
-https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/
-https://sarthaksaini.com/about-me.html
+https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
+https://sarthaksaini.com/about-me.html <br>
 
 # OSWAP Top 10 Related Topic
 
