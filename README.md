@@ -89,6 +89,7 @@ https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
 
 # Tool
 https://github.com/cbornstein/pymd5-collisions
+dnspy - https://github.com/dnSpy/dnSpy/releases
 
 # OSWE Like Topic
 
