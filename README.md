@@ -26,6 +26,7 @@ good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <
 ## JavaScript Injection
 
 ## PHP Type Juggling
+Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
 ## XML External Entity (XXE) Attack
 
