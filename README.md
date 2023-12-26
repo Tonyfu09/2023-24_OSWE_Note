@@ -88,8 +88,10 @@ XSS Playload https://github.com/payloadbox/xss-payload-list
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
 
 # Tool
-https://github.com/cbornstein/pymd5-collisions
-dnspy - https://github.com/dnSpy/dnSpy/releases
+MD5 Collisions - https://github.com/cbornstein/pymd5-collisions
+dnspy - https://github.com/dnSpy/dnSpy/releases <br>
+pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
+
 
 # OSWE Like Topic
 
