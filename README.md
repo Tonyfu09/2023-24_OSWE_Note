@@ -13,7 +13,7 @@ OSWEer's Advice
 https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
 https://sarthaksaini.com/about-me.html <br>
 
-# OSWAP Top 10 Related Topic
+# OSWE prepare OSWAP Top 10 Related Topic
 
 ## XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
@@ -32,6 +32,8 @@ Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
 ## Server Side Template Injection (SSTI)
 
+## NodeJS
+
 ## SQLi
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. 
 
@@ -40,7 +42,7 @@ Payload https://github.com/payloadbox/sql-injection-payload-list <br>
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%20Injection/ <br>
 Markdown Cheatsheet https://github.com/lifeparticle/Markdown-Cheatsheet <br>
-PostgreSQL https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/
+PostgreSQL Dollar quoted string constants https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/
 
 # The Box have been pwanded 
 
@@ -88,6 +90,7 @@ XSS Playload https://github.com/payloadbox/xss-payload-list
 
 # Markup for Github
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 # Tool
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions
@@ -103,6 +106,8 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 	2. test
 3.  ATutor LMS Type Juggling Vulnerability
 4.  ManageEngine Applications Manager AMUserResourcesSyncServlet SQL Injection RCE
+	1. test
+	2. test
 5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
 6.  DotNetNuke Cookie Deserialization RCE
 7.  ERPNext Authentication Bypass and Server Side Template Injection
