@@ -97,7 +97,7 @@ MD5 Collisions - https://github.com/cbornstein/pymd5-collisions
 dnspy - https://github.com/dnSpy/dnSpy/releases <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 
-
+<!-- 
 # OSWE Like Topic
 
 1. Source Code Audit
@@ -119,6 +119,7 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 	1. test
 	2. test
 13.  Atmail Mail Server Appliance: from XSS to RCE archived
+!-->
 
 # Post OSWE
 
