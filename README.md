@@ -1,4 +1,4 @@
-# Disclaimer
+
 All Resources below is only for education purpose for everyone who wanted to learn OSWE.
 
 # 2023-24_OSWE Preparation
