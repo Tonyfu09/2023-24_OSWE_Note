@@ -94,7 +94,7 @@ https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 # Tool
-MD5 Collisions - https://github.com/cbornstein/pymd5-collisions
+MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
 dnspy - https://github.com/dnSpy/dnSpy/releases <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 
@@ -116,6 +116,7 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
 	1. Regular expression https://regex101.com/
 	2. JavaScript RegExp Reference https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+        3. (execute a shell) hex-encode our forward slashes and bypass the restrictions of the regex parsing
 6.  DotNetNuke Cookie Deserialization RCE
 7.  ERPNext Authentication Bypass and Server Side Template Injection
 8.  openCRX Authentication Bypass and Remote Code Execution
