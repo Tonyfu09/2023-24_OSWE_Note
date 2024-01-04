@@ -106,9 +106,13 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 	1. test
 	2. test
 3.  ATutor LMS Type Juggling Vulnerability
+	1. PHP Strict compasion and loose compasion
+	2. 
+	3. 
 4.  ManageEngine Applications Manager AMUserResourcesSyncServlet SQL Injection RCE
 	1. test
 	2. test
+	3. test
 5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
 	1. Regular expression https://regex101.com/
 	2. JavaScript RegExp Reference https://www.w3schools.com/jsref/jsref_obj_regexp.asp
