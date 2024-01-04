@@ -95,7 +95,7 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 # Tool
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
-dnspy - https://github.com/dnSpy/dnSpy/releases <br>
+dnspy - .NET Debugger - https://github.com/dnSpy/dnSpy/releases <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 
 <!-- 
