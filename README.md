@@ -114,8 +114,9 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 	2. test
 	3. test
 5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
-	1. Regular expression https://regex101.com/
-	2. JavaScript RegExp Reference https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+	1. Regular expression - https://regex101.com/
+        2. Regular expression explain - https://hackmd.io/@Heidi-Liu/regex#Why-we-need-Regular-Expression
+	2. JavaScript RegExp Reference - https://www.w3schools.com/jsref/jsref_obj_regexp.asp
         3. (execute a shell) hex-encode our forward slashes and bypass the restrictions of the regex parsing
 6.  DotNetNuke Cookie Deserialization RCE
 7.  ERPNext Authentication Bypass and Server Side Template Injection
