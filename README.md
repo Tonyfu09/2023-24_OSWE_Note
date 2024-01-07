@@ -112,13 +112,15 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 4.  ManageEngine Applications Manager AMUserResourcesSyncServlet SQL Injection RCE
 	1. test
 	2. test
-	3. test
+	3. Stacked Queries https://www.sqlinjection.net/stacked-queries/
 5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
 	1. Regular expression - https://regex101.com/
         2. Regular expression explain - https://hackmd.io/@Heidi-Liu/regex#Why-we-need-Regular-Expression
 	2. JavaScript RegExp Reference - https://www.w3schools.com/jsref/jsref_obj_regexp.asp
         3. (execute a shell) hex-encode our forward slashes and bypass the restrictions of the regex parsing
 6.  DotNetNuke Cookie Deserialization RCE
+	1. C# Serialize and Deserialize https://blog.miniasp.com/post/2008/03/19/How-to-serialize-and-deserialize-using-C-NET
+        2. .NET Documentation https://learn.microsoft.com/en-us/dotnet/?view=net-8.0
 7.  ERPNext Authentication Bypass and Server Side Template Injection
 8.  openCRX Authentication Bypass and Remote Code Execution
 9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
