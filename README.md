@@ -121,6 +121,7 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 6.  DotNetNuke Cookie Deserialization RCE
 	1. C# Serialize and Deserialize https://blog.miniasp.com/post/2008/03/19/How-to-serialize-and-deserialize-using-C-NET
         2. .NET Documentation https://learn.microsoft.com/en-us/dotnet/?view=net-8.0
+	3. Generating payloads that exploit unsafe .NET object deserializationhttps://github.com/pwntester/ysoserial.net
 7.  ERPNext Authentication Bypass and Server Side Template Injection
 8.  openCRX Authentication Bypass and Remote Code Execution
 9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
