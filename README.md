@@ -123,7 +123,7 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
         2. .NET Documentation https://learn.microsoft.com/en-us/dotnet/?view=net-8.0
 	3. Generating payloads that exploit unsafe .NET object deserializationhttps://github.com/pwntester/ysoserial.net
 7.  ERPNext Authentication Bypass and Server Side Template Injection
-	1. test
+	1. SQL Injection - utf8mb4_general_ci - https://dev.mysql.com/doc/refman/8.0/en/charset-unicode-sets.html
 	2. test
 8.  openCRX Authentication Bypass and Remote Code Execution
 	1. test
