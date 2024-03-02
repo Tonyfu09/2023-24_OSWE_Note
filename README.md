@@ -30,9 +30,9 @@ good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
 ## XML External Entity (XXE) Attack
-XXE Attack is the vulnerability that allows an attacker to interfere with an application's processing of XML data. The impact is for the attack to view files on the application server filesystem.
-OSWAP Description - https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing
-PortSwigger - https://portswigger.net/web-security/xxe/blind
+XXE Attack is the vulnerability that allows an attacker to interfere with an application's processing of XML data. The impact is for the attack to view files on the application server filesystem.  <br>
+OSWAP Description - https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing  <br>
+PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-security/xxe/blind  <br>
 
 ## Server Side Template Injection (SSTI)
 
