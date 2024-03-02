@@ -131,7 +131,8 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 8.  openCRX Authentication Bypass and Remote Code Execution
 	1. Java application analysis, tree -L 3
 	2. XXE (XML External Entity) vulnerability
- 	2. test
+ 	3. XXE Attack submitted - <!DOCTYPE reset [ <!ENTITY qaz SYSTEM "/etc/passwd"> ]> <reset>&qaz;</reset>
+ 	4.   
 9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
 	1. test
 	2. test
