@@ -135,7 +135,7 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 	1. Java application analysis, tree -L 3
 	2. XXE (XML External Entity) vulnerability
  	3. XXE Attack submitted - <!DOCTYPE reset [ <!ENTITY qaz SYSTEM "/etc/passwd"> ]> <reset>&qaz;</reset>
- 	4.   
+ 	4. JAVA RCE - create a feature void, create a procedure and call that feature.
 9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
 	1. test
 	2. test
