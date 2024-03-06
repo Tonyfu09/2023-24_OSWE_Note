@@ -137,7 +137,7 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
  	3. XXE Attack submitted - <!DOCTYPE reset [ <!ENTITY qaz SYSTEM "/etc/passwd"> ]> <reset>&qaz;</reset>
  	4. JAVA RCE - create a feature void, create a procedure and call that feature.
 9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
-	1. test
+	1. XSS - The Browser Exploitation Framework (BeEF)
 	2. test
 10.  Concord Authentication Bypass to RCE
 	1. test
