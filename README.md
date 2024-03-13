@@ -138,7 +138,7 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
  	4. JAVA RCE - create a feature void, create a procedure and call that feature.
 9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
 	1. XSS - The Browser Exploitation Framework (BeEF)
-	2. API server with Flask
+	2. DOM - HTML elements via the getElementByID and getElementsByTagName methods.
 	2. API server with Flask
  	2. API server with Flask
   	2. API server with Flask
