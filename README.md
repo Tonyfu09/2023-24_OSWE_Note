@@ -139,8 +139,8 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 9.  openITCOCKPIT XSS and OS Command Injection - Blackbox
 	1. XSS - The Browser Exploitation Framework (BeEF)
 	2. DOM - HTML elements via the getElementByID and getElementsByTagName methods.
-	2. XSS Page
- 	2. API server with Flask
+	2. Creating the DB - XSS Page
+ 	2. Creating the API - API Server Setup with Flask
   	2. API server with Flask
 10.  Concord Authentication Bypass to RCE
 	1. test
