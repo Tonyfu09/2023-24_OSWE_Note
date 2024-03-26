@@ -143,8 +143,10 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
  	4. OS Command injection combining a fuzzing skill
   	5. 
 10.  Concord Authentication Bypass to RCE
-	1. test
-	2. test
+	1. Access-Control-Allow-Origin have three values *, null and origin.
+	2. 
+ 	3.
+  	4. 
 11.  Server-Side Request Forgery
 	1. test
 	2. test
