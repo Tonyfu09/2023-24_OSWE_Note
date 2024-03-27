@@ -144,8 +144,8 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
   	5. 
 10.  Concord Authentication Bypass to RCE
 	1. CORS, Access-Control-Allow-Origin have three values *, null and origin. https://fetch.spec.whatwg.org/#cors-request
-	2. SameSite Attribute, [http-response] Set-Cookie: session=ABCDEFGHIJKLMNO; Path=/; Max-Age=0; SameSite=Lax; *three of attribute: Strict, None, and Lax.
- 	3.
+	2. SameSite Attribute, [http-response] Set-Cookie: session=ABCDEFGHIJKLMNO; Path=/; Max-Age=0; SameSite=Lax; *three of attribute: Strict, None, and Lax. Understanding the relationship between SOP, CORS, and the SameSite attribute is critical in understanding how and when an application might be vulnerable to CSRF.
+ 	3. 
   	4. 
 11.  Server-Side Request Forgery
 	1. test
