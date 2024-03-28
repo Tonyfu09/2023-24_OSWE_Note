@@ -146,7 +146,7 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
 	1. CORS, Access-Control-Allow-Origin have three values *, null and origin. https://fetch.spec.whatwg.org/#cors-request
 	2. SameSite Attribute, [http-response] Set-Cookie: session=ABCDEFGHIJKLMNO; Path=/; Max-Age=0; SameSite=Lax; *three of attribute: Strict, None, and Lax. Understanding the relationship between SOP, CORS, and the SameSite attribute is critical in understanding how and when an application might be vulnerable to CSRF.
  	3. CORS exploits are similar to reflected Cross-Site Scripting (XSS) in that we must send a link to an already-authenticated user in order to exploit something of value
-  	4. 
+  	4. Liquibase.xml, Liquibase is an open-source database schema change management solution which enables you to manage revisions of your database changes easily.
 11.  Server-Side Request Forgery
 	1. test
 	2. test
