@@ -148,8 +148,10 @@ pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
  	3. CORS exploits are similar to reflected Cross-Site Scripting (XSS) in that we must send a link to an already-authenticated user in order to exploit something of value
   	4. Liquibase.xml, Liquibase is an open-source database schema change management solution which enables you to manage revisions of your database changes easily.
 11.  Server-Side Request Forgery
-	1. test
+	1. Directus v9.0.0 rc34
 	2. test
+ 	3. 
+  	4. 
 12.  Guacamole Lite Prototype Pollution	
 	1. test
 	2. test
