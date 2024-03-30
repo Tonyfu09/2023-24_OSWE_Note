@@ -42,10 +42,7 @@ PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-securit
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. 
 
 ## Resource
-Payload https://github.com/payloadbox/sql-injection-payload-list <br>
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
-Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%20Injection/ <br>
-Markdown Cheatsheet https://github.com/lifeparticle/Markdown-Cheatsheet <br>
 PostgreSQL Dollar quoted string constants https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/
 
 # The Box have been pwanded 
@@ -90,7 +87,10 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 
 # Payload Cheetsheet
 Command injection https://github.com/payloadbox/command-injection-payload-list <br>
-XSS Playload https://github.com/payloadbox/xss-payload-list
+XSS Playload https://github.com/payloadbox/xss-payload-list  <br>
+SQL injection Payload https://github.com/payloadbox/sql-injection-payload-list <br>
+Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%20Injection/ <br>
+Markdown Cheatsheet https://github.com/lifeparticle/Markdown-Cheatsheet <br>
 
 # Formatting syntax for Github 
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
