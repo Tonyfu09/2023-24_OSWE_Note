@@ -55,25 +55,25 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 # HTB
 |BoxName|TechForBox|OS|
 |---|---|---|
-|Vault|SQLi|Linux|
-|Popcorn|SQLi|Linux|
-|Celestial|SQLi|Linux|
-|Blocky|SQLi|Linux|
-|Falafel|SQLi|Linux|
-|Zipper|SQLi|Linux|
-|Unattended|SQLi|Linux|
-|Help|SQLi|Linux|
-|Mango|SQLi|Linux|
-|Schooled|SQLi|Linux|
-|Sink|SQLi|Linux|
-|Monitors|SQLi|Linux|
-|Magic|SQLi|Linux|
-|Unobtainium|SQLi|Linux|
-|Crossfit|SQLi|Linux|
-|Crossfit2|SQLi|Linux|
-|Stacked|SQLi|Linux|
-|Fingerprint|SQLi|Linux|
-|JSON|SQLi|Windows|
+|Vault|Not Yet|Linux|
+|Popcorn|Not Yet|Linux|
+|Celestial|Not Yet|Linux|
+|Blocky|Not Yet|Linux|
+|Falafel|Not Yet|Linux|
+|Zipper|Not Yet|Linux|
+|Unattended|Not Yet|Linux|
+|Help|Not Yet|Linux|
+|Mango|Not Yet|Linux|
+|Schooled|Not Yet|Linux|
+|Sink|Not Yet|Linux|
+|Monitors|Not Yet|Linux|
+|Magic|Not Yet|Linux|
+|Unobtainium|Not Yet|Linux|
+|Crossfit|Not Yet|Linux|
+|Crossfit2|Not Yet|Linux|
+|Stacked|Not Yet|Linux|
+|Fingerprint|Not Yet|Linux|
+|JSON|Not Yet|Windows|
 
 # Vulnhub (only for web vulnerility leads to RCE)
 |BoxName|TechForBox|OS|
@@ -81,12 +81,12 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Silky-CTF|Commands Injection|Linux|
 |bwapp|OWASP Top 10 Box|Linux|
 |Homeless|Arbitrary file upload to LFI, code analysis to observe md5 collisions|Linux|
-|Seattle|SQLi|Linux|
-|Ted 1|SQLi|Linux|
-|Raven 2|SQLi|Linux|
-|Potato|SQLi|Linux|
-|Secure Code 1|SQLi|Linux|
-|Pipe|SQLi|Linux|
+|Seattle|Not Yet|Linux|
+|Ted 1|Not Yet|Linux|
+|Raven 2|Not Yet|Linux|
+|Potato|Not Yet|Linux|
+|Secure Code 1|Not Yet|Linux|
+|Pipe|Not Yet|Linux|
 
 # Payload Cheetsheet
 Command injection https://github.com/payloadbox/command-injection-payload-list <br>
