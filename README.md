@@ -41,7 +41,7 @@ PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-securit
 ## SQLi
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. 
 
-Resource
+## Resource
 Payload https://github.com/payloadbox/sql-injection-payload-list <br>
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%20Injection/ <br>
@@ -88,15 +88,15 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Secure Code 1|SQLi|Linux|
 |Pipe|SQLi|Linux|
 
-# Payload
+# Payload Cheetsheet
 Command injection https://github.com/payloadbox/command-injection-payload-list <br>
 XSS Playload https://github.com/payloadbox/xss-payload-list
 
-# Markup for Github
+# Formatting syntax for Github 
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-# Tool
+# Tools
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
 dnspy - .NET Debugger - https://github.com/dnSpy/dnSpy/releases <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL<br>
