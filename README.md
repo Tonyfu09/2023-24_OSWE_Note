@@ -11,8 +11,8 @@ The Summary here only forcus on web vulnerabilit and how we could get the initia
 2. Code logic knowledge https://www.codecademy.com/
 
 ## OSWEer's Advice
-_https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
-_https://sarthaksaini.com/about-me.html <br>
+- [] https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
+- [] https://sarthaksaini.com/about-me.html <br>
 
 # OSWE prepare OSWAP Top 10 Related Topic
 
