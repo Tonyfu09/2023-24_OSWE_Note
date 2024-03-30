@@ -4,7 +4,7 @@ All Resources below is only for education purpose for everyone who wanted to lea
 !-->
 
 # 2023-24_OSWE Preparation
-The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability.
+The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability. Embark on a comprehensive exploration of various web application vulnerabilities, deeply into understanding the OWASP Top 10.
 
 ## Course could helps 
 1. Hands on exprience on web vulnerability https://pentesterlab.com/ <br>
