@@ -151,7 +151,7 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
 11.  Server-Side Request Forgery
 	1. Directus v9.0.0 rc34
 	2. API gateways for microservices
- 	3. API Discovery via Verb Tampering, the way to retrieve api with error code 400,401
+ 	3. API Discovery via Verb Tampering, the way to retrieve api with error code 204,401,403,404
   	4. 
 12.  Guacamole Lite Prototype Pollution	
 	1. test
