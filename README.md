@@ -34,6 +34,9 @@ XXE Attack is the vulnerability that allows an attacker to interfere with an app
 OSWAP Description - https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing  <br>
 PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-security/xxe/blind  <br>
 
+## Server Side Request Forgery (SSRF)
+
+
 ## Server Side Template Injection (SSTI)
 
 ## NodeJS
@@ -152,7 +155,7 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
 	1. Directus v9.0.0 rc34
 	2. API gateways for microservices
  	3. API Discovery via Verb Tampering, the way to retrieve api with error code 204,401,403,404
-  	4. 
+  	4. Server-Side Request Forgery (SSRF) occurs when an attacker can force an application or server to request data or a resource. 
 12.  Guacamole Lite Prototype Pollution	
 	1. test
 	2. test
