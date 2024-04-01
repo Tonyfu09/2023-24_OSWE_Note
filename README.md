@@ -157,7 +157,7 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
  	3. API Discovery via Verb Tampering, the way to retrieve api with error code 204,401,403,404
   	4. Server-Side Request Forgery (SSRF) occurs when an attacker can force an application or server to request data or a resource. 
   	5. Blind SSRF vulnerability when the request got 403 forbiddenm but the server have 200 return data but actually does not return the result of the forged request. 
-  	6.
+  	6. Blind SSRF vulnerability cannot access the results of SSRF
   	7. 
 12.  Guacamole Lite Prototype Pollution	
 	1. test
