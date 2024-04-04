@@ -162,8 +162,16 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
   	8. Headless Chrome - A headless browser is a browser without a graphical user interface. Instead of controlling the browser’s actions via its graphical user interface (GUI), headless browsers are controlled using the command line.
   	9. 
 12.  Guacamole Lite Prototype Pollution	
-	1. Object Prototype - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
-	2. test
+	1. Object Prototype - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes. The respectivitly would be the object class prototype, student prototype and s object directly.
+	2. 
+ 	3. 
+  	4. 
+   	5.
+	6.
+ 	7.
+  	8.
+	9.
+	10. 
 13.  Atmail Mail Server Appliance: from XSS to RCE archived
 	1. test
 	2. test
