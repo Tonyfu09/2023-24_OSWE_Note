@@ -35,7 +35,7 @@ OSWAP Description - https://owasp.org/www-community/vulnerabilities/XML_External
 PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-security/xxe/blind  <br>
 
 ## Server Side Request Forgery (SSRF)
-SSRF is the type which the attack forcus the server send the web request the attack wants. 
+SSRF is the type which the attack forcus the server send the web request the attack wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
 
 ## Server Side Template Injection (SSTI)
 
