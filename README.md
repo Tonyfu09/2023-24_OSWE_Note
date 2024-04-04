@@ -166,7 +166,7 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
 	2. 
  	3. 
   	4. 
-   	5.
+   	5. Prototype Pollution Exploitation - Application and Library dependent. Try to find if that possible to set isAdmin to true in the Object prototype.
 	6.
  	7.
   	8.
