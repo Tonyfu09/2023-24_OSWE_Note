@@ -162,7 +162,7 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
   	8. Headless Chrome
   	9. 
 12.  Guacamole Lite Prototype Pollution	
-	1. test
+	1. Object Prototype - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
 	2. test
 13.  Atmail Mail Server Appliance: from XSS to RCE archived
 	1. test
