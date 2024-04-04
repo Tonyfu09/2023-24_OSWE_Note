@@ -159,7 +159,7 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
   	5. Blind SSRF vulnerability when the request got 403 forbiddenm but the server have 200 return data but actually does not return the result of the forged request. 
   	6. Blind SSRF vulnerability cannot access the results of SSRF
   	7. Error messages to determine if we've requested a valid resource
-  	8. Headless Chrome
+  	8. Headless Chrome - A headless browser is a browser without a graphical user interface. Instead of controlling the browser’s actions via its graphical user interface (GUI), headless browsers are controlled using the command line.
   	9. 
 12.  Guacamole Lite Prototype Pollution	
 	1. Object Prototype - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
