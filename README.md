@@ -169,8 +169,8 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
 	2. 
  	3. 
   	4. 
-   	5. Prototype Pollution Exploitation - Application and Library dependent. Try to find if that possible to set isAdmin to true in the Object prototype.
-	6.
+   	5. Prototype Pollution Exploitation - Application and Library dependent. Try to find if that possible to set isAdmin to true in the Object prototype. <br>
+	6. Prototype extends the DOM - http://prototypejs.org/learn/extensions
  	7.
   	8.
 	9.
