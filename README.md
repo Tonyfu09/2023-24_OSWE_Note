@@ -96,8 +96,9 @@ Payload All the Thing https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/SQL%
 Markdown Cheatsheet https://github.com/lifeparticle/Markdown-Cheatsheet <br>
 
 # Formatting syntax for Github 
-https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796 <br>
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax <br>
+
 
 # Tools
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
