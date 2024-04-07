@@ -180,10 +180,10 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
 haxhaxhax
 'Hello, world'
 
-  	4. Handlebars
-   	5. Prototype Pollution Exploitation - Application and Library dependent. Try to find if that possible to set isAdmin to true in the Object prototype. <br>
-	6. Prototype extends the DOM - http://prototypejs.org/learn/extensions
- 	7.
+  	4. Handlebars - To build a Handlebars proof of concept, we are going use techniques that were discovered by security researcher Beomjin Lee.
+ 	5.
+   	6. Prototype Pollution Exploitation - Application and Library dependent. Try to find if that possible to set isAdmin to true in the Object prototype. <br>
+	7. Prototype extends the DOM - http://prototypejs.org/learn/extensions
   	8.
 	9.
 	10. 
