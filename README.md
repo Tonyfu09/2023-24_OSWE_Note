@@ -184,11 +184,11 @@ Reference : https://fetch.spec.whatwg.org/#cors-request
 haxhaxhax
 'Hello, world'
 
-  	4. Handlebars - To build a Handlebars proof of concept, we are going use techniques that were discovered by security researcher Beomjin Lee.
- 	5. Handlebars Abstract Syntax Tree (AST) - the syntax return data from Handlebars.
-   	6. Prototype Pollution Exploitation - Application and Library dependent. Try to find if that possible to set isAdmin to true in the Object prototype. <br>
+  	4. EJS case, Prototype Pollution Exploitation - Application and Library dependent. Try to find if that possible to set isAdmin to true in the Object prototype. <br>
+ 	5. Handlebars - To build a Handlebars proof of concept, we are going use techniques that were discovered by security researcher Beomjin Lee.
+   	6. Handlebars Abstract Syntax Tree (AST) - the syntax return data from Handlebars.
 	7. Prototype extends the DOM - http://prototypejs.org/learn/extensions
-  	8. 
+  	8. eval() is a function property of the global object. The argument of the eval() function is a string.
 	9.
 	10. 
 13.  Atmail Mail Server Appliance: from XSS to RCE archived
