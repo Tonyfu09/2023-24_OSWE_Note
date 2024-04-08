@@ -26,6 +26,10 @@ good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <
 
 ## JavaScript Injection
 
+### Prototype Pollution
+Prototype pollution often happen when an attacker inject javascript code. The attacker is attempting to control the default values of an object's properties. <br>
+Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
+
 ## PHP Type Juggling
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
@@ -43,10 +47,6 @@ SSRF is the type which the attack forcus the server send the web request the att
 
 ## SQLi
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. 
-
-## Prototype Pollution
-Prototype pollution often happen when an attacker inject javascript code. The attacker is attempting to control the default values of an object's properties. <br>
-Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
