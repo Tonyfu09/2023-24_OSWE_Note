@@ -26,7 +26,7 @@ good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <
 
 ## JavaScript Injection
 
-### Prototype Pollution
+- ### Prototype Pollution
 Prototype pollution often happen when an attacker inject javascript code. The attacker is attempting to control the default values of an object's properties. <br>
 Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 
