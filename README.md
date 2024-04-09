@@ -190,7 +190,10 @@ haxhaxhax
   	8. eval() is a function property of the global object. The argument of the eval() function is a string.
 	9. Remote debuggering to caught the throw exception on javascript
 	10. 
-13.  Atmail Mail Server Appliance: from XSS to RCE archived
+
+13.  Dolibarr Eval Filter Bypass RCE
+ 
+14.  Atmail Mail Server Appliance: from XSS to RCE archived
 	1. test
 	2. test
 !-->
