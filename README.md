@@ -192,6 +192,11 @@ haxhaxhax
 	10. 
 
 13.  Dolibarr Eval Filter Bypass RCE
+	1. 
+ 	2. 
+  	3. 
+   	4. 
+    	5. 
  
 14.  Atmail Mail Server Appliance: from XSS to RCE archived
 	1. test
