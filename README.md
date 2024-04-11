@@ -194,7 +194,7 @@ haxhaxhax
 13.  Dolibarr Eval Filter Bypass RCE
 	1. eval() function in (JavaScript, PHP, and Python). Any time an application passes improperly sanitized user input into eval(), it is an example of client-side eval injection. This attack is essentially the same as client-side cross-site scripting (XSS).
  	2. identify sink https://en.wikipedia.org/wiki/Sink_(computing)
-  	3. Bypass Security Filter to Trigger Eval
+  	3. Bypass Security Filter to Trigger Eval - using regular expression to search the different value pass to the function in each parameter.(dol_eval\(\$[\w\[\]']+,\s\d,\s\d,\s'(?!1|2)'\))
    	4. 
     	5. 
  
