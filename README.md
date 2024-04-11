@@ -196,7 +196,9 @@ haxhaxhax
  	2. identify sink https://en.wikipedia.org/wiki/Sink_(computing)
   	3. Bypass Security Filter to Trigger Eval - using regular expression to search the different value pass to the function in each parameter.(dol_eval\(\$[\w\[\]']+,\s\d,\s\d,\s'(?!1|2)'\))
    	4. "extends CommonObject" in code-server's search bar can get other classes inherit from CommonObject.
-    	5. 
+    	5. Filter Bypass Revisted - Review other ways to bypass blocklist validation controls.
+    	6. reflection -> to a way to modify an application programmatically at run-time.
+    	7. 
  
 14.  (Archived)Atmail Mail Server Appliance: from XSS to RCE archived
 	1. test
