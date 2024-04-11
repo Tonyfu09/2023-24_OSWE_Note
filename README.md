@@ -114,10 +114,10 @@ SSRF Map - https://github.com/swisskyrepo/SSRFmap
 # OSWE Like Topic
 
 1. Source Code Audit
-2. ATutor Authentication Bypass and RCE
+2.  (Archived)ATutor Authentication Bypass and RCE
 	1. test
 	2. test
-3.  ATutor LMS Type Juggling Vulnerability
+3.  (Archived)ATutor LMS Type Juggling Vulnerability
 	1. PHP Strict compasion and loose compasion
 	2. 
 	3. 
