@@ -122,7 +122,7 @@ SSRF Map - https://github.com/swisskyrepo/SSRFmap
 	2. 
 	3. 
 4.  ManageEngine Applications Manager AMUserResourcesSyncServlet SQL Injection RCE
-	1. test
+	1. Regular expressions search in notepad++
 	2. test
 	3. Stacked Queries https://www.sqlinjection.net/stacked-queries/
 5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
