@@ -7,8 +7,8 @@ All Resources below is only for education purpose for everyone who wanted to lea
 The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability. Embark on a comprehensive exploration of various web application vulnerabilities, deeply into understanding the OWASP Top 10.
 
 ## Course could helps 
-1. Hands on exprience on web vulnerability https://pentesterlab.com/ <br>
-2. Code logic knowledge https://www.codecademy.com/
+1. Hands on exprience on web vulnerability https://pentesterlab.com/ , White Exercises in https://pentesterlab.com/badges/whitebadge<br>
+2. Code logic knowledge https://www.codecademy.com/ <br>
 
 ## OSWEer's Advice
 - https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
