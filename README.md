@@ -126,7 +126,7 @@ SSRF Map - https://github.com/swisskyrepo/SSRFmap
 	2. Enable DB Log for "C:\Program Files (x86)\ManageEngine\AppManager12\working\pgsql\data\amdb\postgresql.conf" for further check. using pgadmin4 which the a front end for PostgreSQL for furhter debugging purposes.
         4. 
         5.
-	3. Stacked Queries https://www.sqlinjection.net/stacked-queries/
+	3. PostgreSQL Stacked Query, Stacked Queries https://www.sqlinjection.net/stacked-queries/
 5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
 	1. Regular expression - https://regex101.com/
         2. Regular expression explain - https://hackmd.io/@Heidi-Liu/regex#Why-we-need-Regular-Expression
