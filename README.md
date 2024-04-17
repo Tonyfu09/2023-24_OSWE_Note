@@ -124,7 +124,7 @@ SSRF Map - https://github.com/swisskyrepo/SSRFmap
 4.  ManageEngine Applications Manager AMUserResourcesSyncServlet SQL Injection RCE
 	1. Regular expressions search in notepad++
 	2. Enable DB Log for "C:\Program Files (x86)\ManageEngine\AppManager12\working\pgsql\data\amdb\postgresql.conf" for further check. using pgadmin4 which the a front end for PostgreSQL for furhter debugging purposes.
-        4. 
+        4. Discover if there have any characher encoded before it save into DB.
         5.
 	3. PostgreSQL Stacked Query, Stacked Queries https://www.sqlinjection.net/stacked-queries/
 5.  Bassmaster NodeJS Arbitrary JavaScript Injection Vulnerability
