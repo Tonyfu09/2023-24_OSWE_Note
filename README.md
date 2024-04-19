@@ -47,7 +47,14 @@ SSRF is the type which the attack forcus the server send the web request the att
 
 ## SQLi
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
-- ### SQL injection Explain and sample testing - https://www.sqlinjection.net/detection/
+1. Error-Based SQL Injections
+2. Union-Based SQL Injections
+3. Blind Boolean-based SQL Injections:
+
+
+- ### SQL injection Explain and sample testing <br>
+https://www.sqlinjection.net/detection/ <br>
+https://portswigger.net/web-security/sql-injection <br>
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
