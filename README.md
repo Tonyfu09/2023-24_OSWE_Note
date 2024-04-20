@@ -51,6 +51,7 @@ SQL injection (SQLi) is a major web application vulnerability class prevalent in
 - In-band SQL Injection technique that relies on error messages thrown by the database server to obtain information about the structure of the database.
 - 
 2. Union-Based SQL Injections
+- The UNION operator is used to combine the result-set of two or more SELECT statements which return as part of the HTTP response.
 - 
 3. Blind Boolean-based SQL Injections:
 - 
