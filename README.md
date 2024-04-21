@@ -54,14 +54,15 @@ SQL injection (SQLi) is a major web application vulnerability class prevalent in
 - The UNION operator is used to combine the result-set of two or more SELECT statements which return as part of the HTTP response.
 - 
 3. Blind Boolean-based SQL Injections:
-- 
-- 
+- Blind SQL (Structured Query Language) injection is a type of SQL Injection attack that asks the database true or false questions and determines the answer based on the applications response. 
+- https://owasp.org/www-community/attacks/Blind_SQL_Injection
 
   
 
 - ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
 https://portswigger.net/web-security/sql-injection <br>
+
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
