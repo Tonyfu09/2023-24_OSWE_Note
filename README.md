@@ -57,7 +57,7 @@ SQL injection (SQLi) is a major web application vulnerability class prevalent in
 - Blind SQL (Structured Query Language) injection is a type of SQL Injection attack that asks the database true or false questions and determines the answer based on the applications response. 
 - https://owasp.org/www-community/attacks/Blind_SQL_Injection
 
-  
+- Skill set for encoding and decoding also would be helpful for bypass the payload into the sql injection.
 
 - ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
