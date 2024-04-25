@@ -64,6 +64,11 @@ Skill set for encoding and decoding also would be helpful for bypass the payload
 https://www.sqlinjection.net/detection/ <br>
 https://portswigger.net/web-security/sql-injection <br>
 
+## Deserialization
+
+Here would be the sample how Deserialize Object is look like https://www.newtonsoft.com/json/help/html/deserializeobject.htm.
+
+XmlSerializer - https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer.deserialize?view=net-8.0
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
