@@ -64,9 +64,10 @@ Skill set for encoding and decoding also would be helpful for bypass the payload
 https://www.sqlinjection.net/detection/ <br>
 https://portswigger.net/web-security/sql-injection <br>
 
-## Deserialization
-Here would be the sample how Deserialize Object is look like https://www.newtonsoft.com/json/help/html/deserializeobject.htm.
+## Serialization and Deserialization
+Definition could be find from Microsoft about of Serialization is "Serialization is the process of converting the state of an object into a form that can be persisted or transported." 
 
+Here would be the sample how Deserialize Object is look like https://www.newtonsoft.com/json/help/html/deserializeobject.htm. and also very nice sample in C# search online https://gitlab.com/-/snippets/2496138
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
