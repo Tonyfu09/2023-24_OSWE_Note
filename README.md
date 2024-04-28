@@ -65,9 +65,9 @@ https://www.sqlinjection.net/detection/ <br>
 https://portswigger.net/web-security/sql-injection <br>
 
 ## Serialization and Deserialization
-Definition could be find from Microsoft about of Serialization is "Serialization is the process of converting the state of an object into a form that can be persisted or transported." 
+Serialization, as defined by Microsoft, is the conversion of an object's state into a format suitable for persistence or transportation. You can find more about this definition on Microsoft's website.
 
-Here would be the sample how Deserialize Object is look like https://www.newtonsoft.com/json/help/html/deserializeobject.htm. and also very nice sample in C# search online https://gitlab.com/-/snippets/2496138
+For a practical example of deserializing objects, you can refer to the following link: [Newtonsoft's documentation on deserializing objects](https://www.newtonsoft.com/json/help/html/deserializeobject.htm). Additionally, there's a helpful sample code in C# available online, which you can access through this link: [Sample code on GitLab](https://gitlab.com/-/snippets/2496138).
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
