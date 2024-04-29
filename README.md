@@ -69,6 +69,8 @@ Serialization, as defined by Microsoft, is the conversion of an object's state i
 
 For a practical example of deserializing objects, you can refer to the following link: [Newtonsoft's documentation on deserializing objects](https://www.newtonsoft.com/json/help/html/deserializeobject.htm). Additionally, there's a helpful sample code in C# available online, which you can access through this link: [Sample code on GitLab](https://gitlab.com/-/snippets/2496138).
 
+Insecure deserialization could allow an attacker to control the serialized object, enabling the injection of malicious code into the victim's system, thus bypassing file upload security measures. The vulnerability is further detailed as mentioned on [OWASP Top 10 - Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
+
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 PostgreSQL Dollar quoted string constants https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/
