@@ -23,7 +23,10 @@ good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <
 
 ## Bypassing File Upload Restrictions
 
-## Authentication Bypass to RCE
+## Authentication Bypass
+
+OSWAP [Sample](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema) also provides different way of Authentication Bypass.
+
 
 ## JavaScript Injection
 
