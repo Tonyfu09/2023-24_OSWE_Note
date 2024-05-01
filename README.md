@@ -30,7 +30,8 @@ OSWAP [Sample](https://owasp.org/www-project-web-security-testing-guide/latest/4
 - ### Bypass regular login
 As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-bypass), one common approach involves leveraging various techniques to attempt to bypass login pages.
 
-
+- ### PHP Type Juggling
+Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
 
 ## JavaScript Injection
@@ -39,8 +40,7 @@ As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-by
 Prototype pollution often happen when an attacker inject javascript code. The attacker is attempting to control the default values of an object's properties. <br>
 Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 
-## PHP Type Juggling
-Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
+
 
 ## XML External Entity (XXE) Attack
 XXE Attack is the vulnerability that allows an attacker to interfere with an application's processing of XML data. The impact is for the attack to view files on the application server filesystem.  <br>
