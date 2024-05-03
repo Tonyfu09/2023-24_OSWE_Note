@@ -138,7 +138,7 @@ Markdown Cheatsheet https://github.com/lifeparticle/Markdown-Cheatsheet <br>
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796 <br>
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax <br>
 
-# Tools
+# Tools (Not Allow use Automatic Tools in Exam)
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
 dnspy - .NET Debugger - https://github.com/dnSpy/dnSpy/releases <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL <br>
