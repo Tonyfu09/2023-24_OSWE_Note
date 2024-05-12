@@ -147,3 +147,4 @@ dnspy - .NET Debugger - https://github.com/dnSpy/dnSpy/releases <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL <br>
 XSS Playload - https://github.com/payloadbox/xss-payload-list <br>
 SSRF Map - https://github.com/swisskyrepo/SSRFmap
+Remote Debugger for (vs-2019) - https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/python/includes/vs-2019/remote-debugging-python-code.md
