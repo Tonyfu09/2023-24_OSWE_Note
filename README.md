@@ -34,7 +34,7 @@ As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-by
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
 - ### SQL Injection
-
+The Union keyword to retrieve data from other tables within the database for sql injection. - [PortSwigger](https://portswigger.net/web-security/sql-injection/union-attacks)
 
 ## JavaScript Injection
 
