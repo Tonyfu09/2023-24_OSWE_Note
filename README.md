@@ -33,6 +33,8 @@ As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-by
 - ### PHP Type Juggling
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
+- ### SQL Injection
+
 
 ## JavaScript Injection
 
