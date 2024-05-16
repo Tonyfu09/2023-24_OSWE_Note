@@ -58,6 +58,9 @@ Server Side Template Injection is focus on the template injection that is execut
 2. Detailed explanation of [SSTI](https://portswigger.net/research/server-side-template-injection)
 3. How to inject payload
 
+[Jinja Template Design Document](https://jinja.palletsprojects.com/en/3.1.x/templates/)
+
+
 - ### Example - Twig from [OWASP](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection)
 There is a function execute by server into the PHP code snippet and could be vulnerable.
 
