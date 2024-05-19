@@ -33,7 +33,8 @@ As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-by
 
 Question could ask
 - 1. The user ID you could?
-- 2. How the user can login
+- 2. How the user obtain the password via signup
+- 3. How the user while they forgot password
 
 - ### PHP Type Juggling
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
@@ -41,6 +42,7 @@ Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 - ### SQL Injection
 The Union keyword to retrieve data from other tables within the database for sql injection. - [PortSwigger](https://portswigger.net/web-security/sql-injection/union-attacks) <br>
 more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset-collate.html
+
 
 ## JavaScript Injection
 
