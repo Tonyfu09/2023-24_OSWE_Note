@@ -37,6 +37,7 @@ Question could ask
 - 3. How the user while they forgot password
 - 4. How the user password save to database
 - 5. what is the sql query can get the passowrd
+- 6. 
 
 - ### PHP Type Juggling
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
