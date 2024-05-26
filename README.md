@@ -36,8 +36,8 @@ Question could ask
 - 2. How the user obtain the password via signup
 - 3. How the user while they forgot password
 - 4. How the user password save to database
-- 5. what is the sql query can get the passowrd
-- 6. 
+- 5. How to explore table scheme outsite
+- 6. what is the sql query can get the passowrd
 
 - ### PHP Type Juggling
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
