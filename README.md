@@ -38,8 +38,8 @@ Question could ask
 - 4. How the user password save to database
 - 5. How to explore table scheme outsite
 - 6. What is the authentication method for user?
-- 6. what is the sql query can get the passowrd
-
+- 7. what is the sql query can get the passowrd
+- 8. Try to figure it out the important element to cract the token
 
 - ### PHP Type Juggling
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
