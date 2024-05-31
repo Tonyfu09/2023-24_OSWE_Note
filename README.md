@@ -62,6 +62,12 @@ XXE Attack is the vulnerability that allows an attacker to interfere with an app
 OSWAP Description - https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing  <br>
 PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-security/xxe/blind  <br>
 
+- Document Type Definitions (DTDs), defines the structure and the legal elements and attributes of an XML document.
+Three types of XML entities in Internal entities, External entities and Parameter entities.
+
+Detaile Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
+
+
 ## Server Side Request Forgery (SSRF)
 SSRF is the type which the attack forcus the server send the web request the attack wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
 
