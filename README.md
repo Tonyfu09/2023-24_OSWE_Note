@@ -65,7 +65,10 @@ PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-securit
 - Document Type Definitions (DTDs), defines the structure and the legal elements and attributes of an XML document.
 Three types of XML entities in Internal entities, External entities and Parameter entities.
 
-Detaile Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
+- Search that if the application accept to receive the XML parsing in some of field.
+- 
+
+Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
 
 ## Server Side Request Forgery (SSRF)
