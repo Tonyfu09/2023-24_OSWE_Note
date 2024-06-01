@@ -66,7 +66,8 @@ PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-securit
 Three types of XML entities in Internal entities, External entities and Parameter entities.
 
 - Search that if the application accept to receive the XML parsing in some of field.
-- Enumerate the directory 
+- Enumerate the directory
+- 
 
 Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
