@@ -73,6 +73,7 @@ Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml
 
 Attack vector
 - XXE vulnerability lead to attack retrieve sensitive file from server
+- XXE vulnerability to call the other vulnerability function
 
 ## Server Side Request Forgery (SSRF)
 SSRF is the type which the attack forcus the server send the web request the attack wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
