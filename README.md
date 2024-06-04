@@ -44,6 +44,8 @@ Question could ask
 Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/blob/main/Login%20Bypass.md)
 
 - ### PHP Type Juggling
+PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
+
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
 - ### SQL Injection
