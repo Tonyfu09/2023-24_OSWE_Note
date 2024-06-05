@@ -62,9 +62,13 @@ Prototype pollution often happen when an attacker inject javascript code. The at
 Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 
 ## XML External Entity (XXE) Attack
-XXE Attack is the vulnerability that allows an attacker to interfere with an application's processing of XML data. The impact is for the attack to view files on the application server filesystem.  <br>
-OSWAP Description - https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing  <br>
-PortSwigger about blind XXE vulnerbilities - https://portswigger.net/web-security/xxe/blind  <br>
+
+XXE (XML External Entity) Attack is a vulnerability that allows an attacker to interfere with an application's processing of XML data. The impact can range from the attacker viewing files on the application server filesystem to more severe consequences like remote code execution.  <br>
+
+### Resources:
+- [OWASP Description](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
+- [PortSwigger on Blind XXE Vulnerabilities](https://portswigger.net/web-security/xxe/blind)
+- 
 
 - Document Type Definitions (DTDs), defines the structure and the legal elements and attributes of an XML document.
 Three types of XML entities in Internal entities, External entities and Parameter entities.
