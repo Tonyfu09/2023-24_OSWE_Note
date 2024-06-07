@@ -82,7 +82,7 @@ DTDs define the structure, legal elements, and attributes of an XML document.
 ## Steps to Exploit XXE Vulnerability
 - Search that if the application accept to receive the XML parsing in some of field.
 - Enumerate the directory
-- 
+- Read the sensitive file
 
 Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
