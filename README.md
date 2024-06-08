@@ -9,6 +9,7 @@ The Summary here only forcus on web vulnerabilit and how we could get the initia
 ## Course could helps 
 1. Hands on exprience on web vulnerability https://pentesterlab.com/ , White Exercises in https://pentesterlab.com/badges/whitebadge<br>
 2. Code logic knowledge https://www.codecademy.com/ <br>
+3. Pentest Course https://www.pentesteracademy.com/ <br>
 
 ## OSWEer's Advice
 - https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
