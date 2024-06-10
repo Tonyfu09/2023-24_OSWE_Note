@@ -88,7 +88,7 @@ DTDs define the structure, legal elements, and attributes of an XML document.
 
 Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
-Attack vector
+Attack vector 
 - XXE vulnerability lead to attack retrieve sensitive file from server
 - XXE vulnerability to call the other vulnerability function
 
@@ -106,8 +106,6 @@ Server Side Template Injection is focus on the template injection that is execut
 
 - ### Example - Twig from [OWASP](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection)
 There is a function execute by server into the PHP code snippet and could be vulnerable.
-
-## NodeJS
 
 ## SQLi
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
@@ -133,6 +131,8 @@ Serialization, as defined by Microsoft, is the conversion of an object's state i
 For a practical example of deserializing objects, you can refer to the following link: [Newtonsoft's documentation on deserializing objects](https://www.newtonsoft.com/json/help/html/deserializeobject.htm). Additionally, there's a helpful sample code in C# available online, which you can access through this link: [Sample code on GitLab](https://gitlab.com/-/snippets/2496138).
 
 Insecure deserialization could allow an attacker to control the serialized object, enabling the injection of malicious code into the victim's system, thus bypassing file upload security measures. The vulnerability is further detailed as mentioned on [OWASP Top 10 - Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
+
+## NodeJS
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
