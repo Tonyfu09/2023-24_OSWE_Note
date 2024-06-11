@@ -7,9 +7,9 @@ All Resources below is only for education purpose for everyone who wanted to lea
 The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability. Embark on a comprehensive exploration of various web application vulnerabilities, deeply into understanding the OWASP Top 10.
 
 ## Course could helps 
-1. Hands on exprience on web vulnerability https://pentesterlab.com/ , White Exercises in https://pentesterlab.com/badges/whitebadge<br>
-2. Code logic knowledge https://www.codecademy.com/ <br>
-3. Pentest Course https://www.pentesteracademy.com/ <br>
+1. Hands on exprience on web vulnerability [PentesterLab](https://pentesterlab.com/) , [White Badge Exercises](https://pentesterlab.com/badges/whitebadge) <br>
+2. Code logic knowledge [Codecademy](https://www.codecademy.com/) <br>
+3. Pentest Course [Pentester Academy](https://www.pentesteracademy.com/) <br>
 
 ## OSWEer's Advice
 - https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
@@ -54,7 +54,6 @@ Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 - ### SQL Injection
 The Union keyword to retrieve data from other tables within the database for sql injection. - [PortSwigger](https://portswigger.net/web-security/sql-injection/union-attacks) <br>
 more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset-collate.html
-
 
 ## JavaScript Injection
 
