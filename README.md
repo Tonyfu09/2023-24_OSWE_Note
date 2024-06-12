@@ -12,8 +12,11 @@ The Summary here only forcus on web vulnerabilit and how we could get the initia
 3. Pentest Course [Pentester Academy](https://www.pentesteracademy.com/) <br>
 
 ## OSWEer's Advice
+1. z-r0crypt's Blog
 - https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
+2. Sarthak Saini's Personal Experience
 - https://sarthaksaini.com/about-me.html <br>
+3. Charchit Verma's Review
 - https://charchitverma100.medium.com/an-honest-oswe-2023-review-my-journey-preparation-and-exam-67d0adcbcde4
 
 # OSWE prepare OSWAP Top 10 Related Topic
