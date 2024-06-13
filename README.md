@@ -87,6 +87,7 @@ DTDs define the structure, legal elements, and attributes of an XML document.
 - Enumerate the directory
 - Read the sensitive file
 - Write the file in the target library 
+- Generally, the XML file would not execute directly
 
 Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
