@@ -23,7 +23,15 @@ The Summary here only forcus on web vulnerabilit and how we could get the initia
 
 ## Cross Site Scripting (XSS)
 
-## DOM-based XSS
+1. DOM-based XSS
+- 
+- 
+2. 
+- 
+- 
+3. 
+- 
+- 
 
 ### XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
