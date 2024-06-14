@@ -26,7 +26,7 @@ The Summary here only forcus on web vulnerabilit and how we could get the initia
 1. DOM-based XSS
 - 
 - 
-2. 
+2. Reflected DOM-based XSS
 - 
 - 
 3. 
