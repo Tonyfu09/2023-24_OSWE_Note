@@ -21,7 +21,11 @@ The Summary here only forcus on web vulnerabilit and how we could get the initia
 
 # OSWE prepare OSWAP Top 10 Related Topic
 
-## XSS to RCE
+## Cross Site Scripting (XSS)
+
+## DOM-based XSS
+
+### XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
 good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
