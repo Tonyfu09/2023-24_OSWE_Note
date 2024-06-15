@@ -26,12 +26,15 @@ https://charchitverma100.medium.com/an-honest-oswe-2023-review-my-journey-prepar
 1.DOM-based XSS <br>
 The Document Object Model (DOM) is structured as a tree of objects, typically manipulated using JavaScript to render HTML in a browser. If an attacker can modify a JavaScript function, a DOM-based XSS (Cross-Site Scripting) vulnerability could allow them to control DOM elements.
 
-- 
-- 
+-
+
 2.Reflected DOM-based XSS
+
 - 
 - 
+
 3.
+
 - 
 - 
 
