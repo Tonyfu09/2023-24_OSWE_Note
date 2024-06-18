@@ -29,15 +29,12 @@ The Document Object Model (DOM) is structured as a tree of objects, typically ma
 The Document Object Model tree is illustrate on w3schools:
 ![image](https://github.com/Tonyfu09/2023-24_OSWE_Note/assets/39818274/88ee655c-5504-4e6d-b921-8296defd30cf)
 
-
-- 
-
 2.Reflected DOM-based XSS
 
 - 
 - 
 
-3.
+3.Stored DOM-based XSS
 
 - 
 - 
