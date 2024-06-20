@@ -40,6 +40,8 @@ An attacker may be able to use the vulnerability to construct a URL that, if vis
 - 
 - 
 
+As three of XSS above coud happening at the same attack period. Further reading could be the Client XSS and Server XSS from [OWASP](https://owasp.org/www-community/Types_of_Cross-Site_Scripting) also helps clear things.
+
 ### XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
 good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
