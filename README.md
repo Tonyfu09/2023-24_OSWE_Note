@@ -32,7 +32,7 @@ The Document Object Model tree is illustrate on w3schools:
 2.Reflected DOM-based XSS
 An attacker may be able to use the vulnerability to construct a URL that, if visited by another application user, will cause JavaScript code supplied by the attacker to execute within the user's browser in the context of that user's session with the application.
 
-- 
+- Server proccess data from the request, an attacker take advantage of it.
 - 
 
 3.Stored DOM-based XSS
