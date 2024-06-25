@@ -45,6 +45,10 @@ As three of XSS above coud happening at the same attack period. Further reading 
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
 good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
+### Client Side Template Injection
+
+### Server Side Template Injection
+
 ## Bypassing File Upload Restrictions
 
 
