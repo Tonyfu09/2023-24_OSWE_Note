@@ -46,7 +46,7 @@ XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list 
 good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
 ### Cross-Origin Resource Sharing (CORS)
-
+Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports.
 
 ### Client Side Template Injection
 
