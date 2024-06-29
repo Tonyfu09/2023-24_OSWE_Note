@@ -48,6 +48,12 @@ good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <
 ### Cross-Origin Resource Sharing (CORS)
 Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports.
 
+Key header to describe CORS as follows:
+- CORS HTTP REQUEST HEADERS
+Origin
+Access-Control-Request-Headers
+Access-Control-Request-Method
+
 
 ## Authentication Bypass
 
