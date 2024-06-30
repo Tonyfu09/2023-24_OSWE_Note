@@ -50,7 +50,7 @@ Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application t
 
 Key header to describe CORS as follows:
 - CORS HTTP REQUEST HEADERS
-Origin
+- [x] Origin
 Access-Control-Request-Headers
 Access-Control-Request-Method
 
