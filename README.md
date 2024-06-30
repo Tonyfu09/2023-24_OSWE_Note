@@ -55,7 +55,7 @@ Access-Control-Request-Headers
 Access-Control-Request-Method
 
 - CORS HTTP RESPONSE HEADERS
-Access-Control-Allow-Origin
+Access-Control-Allow-Origin, there are three types of value respectivetly *, <origin>, null as defined in mozilla https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
 Access-Control-Allow-Credentials
 Access-Control-Allow-Headers
 Access-Control-Allow-Methods
