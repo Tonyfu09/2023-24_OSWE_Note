@@ -63,7 +63,8 @@ Key header to describe CORS as follows:
 - [ ] Access-Control-Max-Age
 - [ ] Timing-Allow-Origin
 
-1. Phish the user
+### SameSite Attribute
+The SameSite attribute lets servers specify whether/when cookies are sent with cross-site requests from [Using HTTP cookies in Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 ## Authentication Bypass
 
