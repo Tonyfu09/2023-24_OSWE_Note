@@ -138,6 +138,8 @@ SSRF is the type which the attack forcus the server send the web request the att
 
 Test with different version and different method could gathering some vulnerability
 
+1. Identify the SSRF vulnerability to determine if there have been any unexpected commands run on the server side.
+
 ## Server Side Template Injection (SSTI)
 Server Side Template Injection is focus on the template injection that is execute on web server.
 
