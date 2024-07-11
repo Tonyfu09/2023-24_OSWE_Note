@@ -136,12 +136,12 @@ Attack vector
 ## Server Side Request Forgery (SSRF)
 SSRF is the type which the attack forcus the server send the web request the attack wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
 
-Test with different version and different method could gathering some vulnerability
+- Identify the SSRF exist in the application
+1. Send the different version and different method of the api endpoints could gathering some vulnerability, also if it could gain more internal information to create map for the attacker.
+2. Identify the SSRF vulnerability to determine if there have been any unexpected commands run on the server side to make an request.
 
-1. Identify the SSRF vulnerability to determine if there have been any unexpected commands run on the server side to make an request.
-2. Send the different method of requests to gain more internal information to find the place could deep dive more.
-3. Handle the data we got from the javascript
-4. 
+- Exfiltration
+1. Set up a web server on your own environment to gathering the data send from Victim.
 
 ## Server Side Template Injection (SSTI)
 Server Side Template Injection is focus on the template injection that is execute on web server.
