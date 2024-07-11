@@ -140,7 +140,8 @@ Test with different version and different method could gathering some vulnerabil
 
 1. Identify the SSRF vulnerability to determine if there have been any unexpected commands run on the server side to make an request.
 2. Send the different method of requests to gain more internal information to find the place could deep dive more.
-3. 
+3. Handle the data we got from the javascript
+4. 
 
 ## Server Side Template Injection (SSTI)
 Server Side Template Injection is focus on the template injection that is execute on web server.
