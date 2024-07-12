@@ -141,7 +141,8 @@ SSRF is the type which the attack forcus the server send the web request the att
 2. Identify the SSRF vulnerability to determine if there have been any unexpected commands run on the server side to make an request.
 
 - Exfiltration
-1. Set up a web server on your own environment to gathering the data send from Victim.
+1. Set up a web server in your environment to gather data sent from the victim.
+2. Analyze the data and parameters received from the victim.
 
 ## Server Side Template Injection (SSTI)
 Server Side Template Injection is focus on the template injection that is execute on web server.
