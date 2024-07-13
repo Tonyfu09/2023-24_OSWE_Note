@@ -144,6 +144,9 @@ SSRF is the type which the attack forcus the server send the web request the att
 1. Set up a web server in your environment to gather data sent from the victim.
 2. Analyze the data and parameters received from the victim.
 
+- Remote Code Execution
+1. Code analyst to discover vulnerability services
+
 ## Server Side Template Injection (SSTI)
 Server Side Template Injection is focus on the template injection that is execute on web server.
 
