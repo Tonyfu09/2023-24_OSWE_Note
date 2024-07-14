@@ -92,10 +92,6 @@ PHP Loose comparisons will lead to vulnerability to return the result that didn'
 
 Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
-- ### SQL Injection
-The Union keyword to retrieve data from other tables within the database for sql injection. - [PortSwigger](https://portswigger.net/web-security/sql-injection/union-attacks) <br>
-more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset-collate.html
-
 ## JavaScript Injection
 
 - ### Prototype Pollution
@@ -172,6 +168,10 @@ SQL injection (SQLi) is a major web application vulnerability class prevalent in
 - https://owasp.org/www-community/attacks/Blind_SQL_Injection
 
 Skill set for encoding and decoding also would be helpful for bypass the payload into the sql injection.
+
+- ### SQL Injection
+The Union keyword to retrieve data from other tables within the database for sql injection. - [PortSwigger](https://portswigger.net/web-security/sql-injection/union-attacks) <br>
+more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset-collate.html
 
 - ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
