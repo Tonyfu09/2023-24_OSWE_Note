@@ -168,6 +168,7 @@ SQL injection (SQLi) is a major web application vulnerability class prevalent in
 - https://owasp.org/www-community/attacks/Blind_SQL_Injection
 
 Skill set for encoding and decoding also would be helpful for bypass the payload into the sql injection.
+1. Discover escape string 
 
 - ### SQL Injection
 The Union keyword to retrieve data from other tables within the database for sql injection. - [PortSwigger](https://portswigger.net/web-security/sql-injection/union-attacks) <br>
