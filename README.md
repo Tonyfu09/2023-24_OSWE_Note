@@ -55,10 +55,10 @@ good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <
 Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports.
 
 Key header to describe CORS as follows:
-- CORS HTTP REQUEST HEADERS
-#### [ ] Origin, define where to send the request
-#### [ ] Access-Control-Request-Headers
-#### [ ] Access-Control-Request-Method
+   - CORS HTTP REQUEST HEADERS
+     - Origin, define where to send the request
+     - Access-Control-Request-Headers
+     - Access-Control-Request-Method
 
 - CORS HTTP RESPONSE HEADERS
 - [ ] Access-Control-Allow-Origin, there are three types of value respectivetly *, <origin>, null as defined in mozilla https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
