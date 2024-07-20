@@ -104,6 +104,15 @@ Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 Prototype pollution often happen when an attacker inject javascript code. The attacker is attempting to control the default values of an object's properties. <br>
 Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 
+#### Function constructor decribe as [Javascript function constructor](https://www.geeksforgeeks.org/prototype-in-javascript/) 
+function Person(name, job, yearOfBirth){   
+    this.name= name;
+    this.job= job;
+    this.yearOfBirth= yearOfBirth;
+}
+
+
+
 ## XML External Entity (XXE) Attack
 
 XXE (XML External Entity) Attack is a vulnerability that allows an attacker to interfere with an application's processing of XML data. The impact can range from the attacker viewing files on the application server filesystem to more severe consequences like remote code execution.  <br>
