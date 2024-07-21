@@ -105,12 +105,13 @@ Prototype pollution often happen when an attacker inject javascript code. The at
 Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 
 #### Function constructor decribe as [Javascript function constructor](https://www.geeksforgeeks.org/prototype-in-javascript/) 
+<code>
 function Person(name, job, yearOfBirth){   
     this.name= name;
     this.job= job;
     this.yearOfBirth= yearOfBirth;
 }
-
+</code>
 
 
 ## XML External Entity (XXE) Attack
