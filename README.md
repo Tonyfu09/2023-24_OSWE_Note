@@ -113,6 +113,8 @@ function Person(name, job, yearOfBirth){
 }
 </code>
 
+Indepe explaination from Hacktrike about how Prototype pollution is working [Hacktricks Prototype Pollution](https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution)
+
 
 ## XML External Entity (XXE) Attack
 
