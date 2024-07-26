@@ -116,7 +116,7 @@ function Person(name, job, yearOfBirth){
 Indepe explaination from Hacktrike about how Prototype pollution is working [Hacktricks Prototype Pollution](https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution)
 
 Step to identifies <br>
-1.  <br>
+1.  Discover any functions to add arbitrary properties to global object prototypes, which may then be inherited by user-defined objects. <br>
 2.  <br>
 
 ## XML External Entity (XXE) Attack
