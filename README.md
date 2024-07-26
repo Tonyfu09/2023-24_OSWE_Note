@@ -117,7 +117,7 @@ Indepe explaination from Hacktrike about how Prototype pollution is working [Hac
 
 Step to identifies <br>
 1.  Discover any functions to add arbitrary properties to global object prototypes, which may then be inherited by user-defined objects. <br>
-2.  <br>
+2.  Add arbitrary properties to prototype objects. <br>
 
 ## XML External Entity (XXE) Attack
 
