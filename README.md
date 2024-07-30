@@ -119,7 +119,7 @@ Indepe explaination from Hacktrike about how Prototype pollution is working [Hac
 - Descripte that some javascript function or DOM element that you're able to access via prototype pollution which enable for adversary execute arbitary JavaScript or system commands. <br>
 
 #### Prototype pollution gadgets <br>
-- Descripte <br>
+- According the description from [Prototype pollution](https://portswigger.net/web-security/prototype-pollution), the prototype pollution gadgets is more about the process turming the prototype pollution vulnerability into an actual exploit. That's means the vulnerability is criticial. <br>
 
 #### Step to identifies <br>
 1. Discover any functions to add arbitrary properties to global object prototypes, which may then be inherited by user-defined objects. <br>
