@@ -122,9 +122,9 @@ Indepe explaination from Hacktrike about how Prototype pollution is working [Hac
 - According the description from [Prototype pollution](https://portswigger.net/web-security/prototype-pollution), the prototype pollution gadgets is more about the process turming the prototype pollution vulnerability into an actual exploit. That's means the vulnerability is criticial. <br>
 
 #### Step to identifies <br>
-1. Discover any functions to add arbitrary properties to global object prototypes, which may then be inherited by user-defined objects. <br>
+1. Discover any functions that allow the addition of arbitrary properties to global object prototypes, which can then be inherited by user-defined objects. <br>
 2. Add arbitrary properties to prototype objects. <br>
-3. Revael and test whether there could control the object and pollute them
+3. Reveal and test whether it is possible to control and pollute the objects. <br>
 4. 
 
 ## XML External Entity (XXE) Attack
