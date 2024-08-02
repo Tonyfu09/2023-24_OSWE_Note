@@ -125,7 +125,7 @@ Indepe explaination from Hacktrike about how Prototype pollution is working [Hac
 1. Discover any functions that allow the addition of arbitrary properties to global object prototypes, which can then be inherited by user-defined objects. <br>
 2. Add arbitrary properties to prototype objects. <br>
 3. Reveal and test whether it is possible to control and pollute the objects. <br>
-4. 
+4. Verify the value change after the pollution, does the program crash or the value of the key is actually got changed?
 
 ## XML External Entity (XXE) Attack
 
