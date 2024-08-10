@@ -79,7 +79,7 @@ OSWAP [WSTG - Latest Sample](https://owasp.org/www-project-web-security-testing-
 - ### Bypass regular login
 As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-bypass), one common approach involves leveraging various techniques to attempt to bypass login pages. <br> 
 
-Question could ask
+Here are some questions  might consider asking:
 - 1. The user ID you could?
 - 2. How the user obtain the password via signup
 - 3. How the user while they forgot password
