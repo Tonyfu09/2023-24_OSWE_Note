@@ -32,7 +32,6 @@ The Document Object Model tree is illustrate on w3schools: <br>
 ![image](https://github.com/Tonyfu09/2023-24_OSWE_Note/assets/39818274/88ee655c-5504-4e6d-b921-8296defd30cf)
 
 - Adversary passes parameter to a sink that supports dynamic code execution to hijack other account
-- 
 
 2. Reflected DOM-based XSS <br>
 An attacker may be able to use the vulnerability to construct a URL that, if visited by another application user, will cause JavaScript code supplied by the attacker to execute within the user's browser in the context of that user's session with the application.
