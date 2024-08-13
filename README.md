@@ -224,7 +224,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 # HTB
 |BoxName|TechForBox|OS|
 |---|---|---|
-|Vault|WebApp Enumeration, Bypass,  |Linux|
+|Vault|WebApp Enumeration, Bypass, Tunneling, Decryption |Linux|
 |Popcorn|Not Yet|Linux|
 |Celestial|Not Yet|Linux|
 |Blocky|Not Yet|Linux|
