@@ -225,7 +225,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |BoxName|TechForBox|OS|
 |---|---|---|
 |Vault|WebApp Enumeration, Bypass, Tunneling, Decryption |Linux|
-|Popcorn|WebApp Enumeration, |Linux|
+|Popcorn|WebApp Enumeration, Bypass,  |Linux|
 |Celestial|Not Yet|Linux|
 |Blocky|Not Yet|Linux|
 |Falafel|Not Yet|Linux|
