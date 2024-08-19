@@ -226,7 +226,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |---|---|---|
 |Vault|WebApp Enumeration, File Bypass, Tunneling, Decryption |Linux|
 |Popcorn|WebApp Enumeration, File Bypass |Linux|
-|Celestial|Serialization |Linux|
+|Celestial|Deerialization, Source code Review |Linux|
 |Blocky|Not Yet|Linux|
 |Falafel|Not Yet|Linux|
 |Zipper|Not Yet|Linux|
