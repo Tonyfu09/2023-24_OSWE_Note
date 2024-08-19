@@ -269,7 +269,7 @@ Java Deserialization https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796 <br>
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax <br>
 
-# Tools (Not Allow use Automatic Tools in Exam)
+# Tools (Automatic Tools are Not Allowed During the Exam)
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
 dnspy - .NET Debugger - https://github.com/dnSpy/dnSpy/releases <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL <br>
