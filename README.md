@@ -230,7 +230,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Vault|WebApp Enumeration, File Bypass, Tunneling, Decryption |Linux|
 |Popcorn|WebApp Enumeration, File Bypass |Linux|
 |Celestial|Deserialization, NodeJS - Source code Review |Linux|
-|Blocky|Java - Decompile,  |Linux|
+|Blocky|WebApp Enumeration, Java - Decompile |Linux|
 |Falafel|Not Yet|Linux|
 |Zipper|Not Yet|Linux|
 |Unattended|Not Yet|Linux|
