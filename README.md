@@ -185,13 +185,14 @@ There is a function execute by server into the PHP code snippet and could be vul
 
 ## SQLi
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
-1. Error-Based SQL Injections
+<br>
+1. Error-Based SQL Injection
 - In-band SQL Injection technique that relies on error messages thrown by the database server to obtain information about the structure of the database.
 - 
-2. Union-Based SQL Injections
+2. Union-Based SQL Injection
 - The UNION operator is used to combine the result-set of two or more SELECT statements which return as part of the HTTP response.
 - 
-3. Blind Boolean-based SQL Injections:
+3. Blind Boolean-based SQL Injection
 - Blind SQL (Structured Query Language) injection is a type of SQL Injection attack that asks the database true or false questions and determines the answer based on the applications response. 
 - https://owasp.org/www-community/attacks/Blind_SQL_Injection
 
