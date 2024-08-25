@@ -183,7 +183,7 @@ Server Side Template Injection is focus on the template injection that is execut
 - ### Example - Twig from [OWASP](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection)
 There is a function execute by server into the PHP code snippet and could be vulnerable.
 
-## SQLi
+## SQL injection
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
 <br>
 1. Error-Based SQL Injection

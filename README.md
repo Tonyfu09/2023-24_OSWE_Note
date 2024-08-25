@@ -198,6 +198,8 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 4. Blind Boolean-based SQL Injection
 - Blind SQL (Structured Query Language) injection is a type of SQL Injection attack that asks the database true or false questions and determines the answer based on the applications response. 
 - https://owasp.org/www-community/attacks/Blind_SQL_Injection
+5. Time-based SQL Injection
+- In a Time-Based SQL Injection, the adversary introduces a delay in the response to validate the presence of a SQL injection vulnerability. This technique does not rely on retrieving data directly but on observing the time delay in the server's response to determine whether the injection was successful.
 
 Skill set for encoding and decoding also would be helpful for bypass the payload into the sql injection.
 1. Discover escape string 
