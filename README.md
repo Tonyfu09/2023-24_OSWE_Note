@@ -201,8 +201,9 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 5. Time-based SQL Injection
 - In a Time-Based SQL Injection, the adversary introduces a delay in the response to validate the presence of a SQL injection vulnerability. This technique does not rely on retrieving data directly but on observing the time delay in the server's response to determine whether the injection was successful.
 
-Skill set for encoding and decoding also would be helpful for bypass the payload into the sql injection.
-1. Discover escape string 
+- ### Skill set in encoding and decoding can be useful for bypassing filters in SQL injection attacks.
+1. Discover escape characters or sequences.
+2. URL-encode the string and add it into the URL as a query parameter.
 
 - ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
