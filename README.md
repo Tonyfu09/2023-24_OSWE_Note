@@ -222,9 +222,9 @@ Potentiall deserialization/serialization  during the process then discover vulne
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 PostgreSQL Dollar quoted string constants https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/ <br>
+SQL Injection Explain https://www.invicti.com/learn/in-band-sql-injection/ <br>
 
 # The Box have been pwanded 
-
 From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview
 
 # HTB
