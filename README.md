@@ -216,8 +216,11 @@ For a practical example of deserializing objects, you can refer to the following
 
 Insecure deserialization could allow an attacker to control the serialized object, enabling the injection of malicious code into the victim's system, thus bypassing file upload security measures. The vulnerability is further detailed as mentioned on [OWASP Top 10 - Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
 
-- ### Java Deserialization
+### Java Deserialization
 Potentiall deserialization/serialization  during the process then discover vulnerabilities in code search.
+
+### XmlSerializer 
+
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
@@ -278,6 +281,7 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 # Tools (Automatic Tools are Not Allowed During the Exam)
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
 dnspy - .NET Debugger - https://github.com/dnSpy/dnSpy/releases <br>
+JD-GUI - <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL <br>
 XSS Playload - https://github.com/payloadbox/xss-payload-list <br>
 SSRF Map - https://github.com/swisskyrepo/SSRFmap
