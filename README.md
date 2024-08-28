@@ -281,7 +281,7 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 # Tools (Automatic Tools are Not Allowed During the Exam)
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
 dnspy - .NET Debugger - https://github.com/dnSpy/dnSpy/releases <br>
-JD-GUI - <br>
+JD-GUI - https://java-decompiler.github.io/ <br>
 pgAdmin - https://www.pgadmin.org/ Front end for PostgreSQL <br>
 XSS Playload - https://github.com/payloadbox/xss-payload-list <br>
 SSRF Map - https://github.com/swisskyrepo/SSRFmap
