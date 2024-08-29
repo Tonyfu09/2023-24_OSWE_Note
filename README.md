@@ -75,7 +75,7 @@ The SameSite attribute lets servers specify whether/when cookies are sent with c
 
 OSWAP [WSTG - Latest Sample](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema) also provides different way of Authentication Bypass. In order to preform authentication bypass, we will require to modify the value of parameter or logicially to make the application trust you are authenticated.
 
-- ### Bypass regular login
+### Bypass regular login
 As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-bypass), one common approach involves leveraging various techniques to attempt to bypass login pages. <br> 
 
 Here are some questions  might consider asking:
