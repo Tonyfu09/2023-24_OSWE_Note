@@ -75,7 +75,7 @@ The SameSite attribute lets servers specify whether/when cookies are sent with c
 
 OSWAP [WSTG - Latest Sample](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema) also provides different way of Authentication Bypass. In order to preform authentication bypass, we will require to modify the value of parameter or logicially to make the application trust you are authenticated.
 
-### Bypass regular login
+- ### Bypass regular login
 As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-bypass), one common approach involves leveraging various techniques to attempt to bypass login pages. <br> 
 
 Here are some questions  might consider asking:
@@ -89,6 +89,9 @@ Here are some questions  might consider asking:
 - 8. Try to figure it out the important element to cract the token
 
 Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/blob/main/Login%20Bypass.md)
+
+- ### Code Review
+Review all the functions in the source code. Break them down one by one to check if any function might have vulnerabilities that could lead to authentication bypass.
 
 - ### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
