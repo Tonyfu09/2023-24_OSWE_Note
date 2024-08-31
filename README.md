@@ -87,6 +87,7 @@ Here are some questions  might consider asking:
 - 6. What is the authentication method for user?
 - 7. what is the sql query can get the passowrd
 - 8. Try to figure it out the important element to cract the token
+- 9. How we can discover more in log system?
 
 Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/blob/main/Login%20Bypass.md)
 
