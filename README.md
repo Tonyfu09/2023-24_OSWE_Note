@@ -180,7 +180,7 @@ Server-Side Template Injection (SSTI) occurs when an adversary is able to inject
 
 SSTI references are provided below.
 1. [First Jinja template ](https://realpython.com/primer-on-jinja-templating/) is good for understand if you are first time have exprience with Jinja. Two step involves 1. Load a template and 2. Render the template
-2. Detailed explanation of [SSTI](https://portswigger.net/research/server-side-template-injection)
+2. Detailed explanation of [SSTI from portswigger](https://portswigger.net/research/server-side-template-injection)
 3. Inject payload to easy define if the server getting template expressions, such as {{7*7}}, ${7*7}
 
 [Jinja Template Design Document](https://jinja.palletsprojects.com/en/3.1.x/templates/)
