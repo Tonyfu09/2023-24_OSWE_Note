@@ -208,11 +208,11 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 5. Time-based SQL Injection
 - In a Time-Based SQL Injection, the adversary introduces a delay in the response to validate the presence of a SQL injection vulnerability. This technique does not rely on retrieving data directly but on observing the time delay in the server's response to determine whether the injection was successful.
 
-### Skill set in encoding and decoding can be useful for bypassing filters in SQL injection attacks.
+- ### Skill set in encoding and decoding can be useful for bypassing filters in SQL injection attacks.
 1. Discover escape characters or sequences.
 2. URL-encode the string and add it into the URL as a query parameter.
 
-### SQL injection Explain and sample testing <br>
+- ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
 https://portswigger.net/web-security/sql-injection <br>
 
@@ -223,10 +223,10 @@ For a practical example of deserializing objects, you can refer to the following
 
 Insecure deserialization could allow an attacker to control the serialized object, enabling the injection of malicious code into the victim's system, thus bypassing file upload security measures. The vulnerability is further detailed as mentioned on [OWASP Top 10 - Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
 
-### Java Deserialization
+- ### Java Deserialization
 Potentiall deserialization/serialization  during the process then discover vulnerabilities in code search.
 
-### XmlSerializer 
+- ### XmlSerializer 
 
 
 ## Resource
