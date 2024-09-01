@@ -187,7 +187,8 @@ SSTI references are provided below.
 - ### Example - Twig from [OWASP](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection)
 There is a function execute by server into the PHP code snippet and could be vulnerable.
 
-- ### Example
+- ### Payload
+The list of SSTI vulnerabilities you'd want to examine includes both filter bypass techniques and associated payloads. [Swisskyrepo - SSTI](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md)
 
 ## SQL injection
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
