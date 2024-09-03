@@ -139,7 +139,7 @@ XXE (XML External Entity) Attack is a vulnerability that allows an attacker to i
 - [OWASP Description](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
 - [PortSwigger on Blind XXE Vulnerabilities](https://portswigger.net/web-security/xxe/blind)
 
-#### XML Entities, A05:2021-Security Misconfiguration
+#### XML Entities
 
 XML documents can define entities which can be referenced within the document. There are three types of XML entities:
 
