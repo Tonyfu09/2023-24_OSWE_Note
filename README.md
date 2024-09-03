@@ -139,7 +139,7 @@ XXE (XML External Entity) Attack is a vulnerability that allows an attacker to i
 - [OWASP Description](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
 - [PortSwigger on Blind XXE Vulnerabilities](https://portswigger.net/web-security/xxe/blind)
 
-#### XML Entities
+#### XML Entities, A05:2021-Security Misconfiguration
 
 XML documents can define entities which can be referenced within the document. There are three types of XML entities:
 
@@ -162,7 +162,7 @@ Attack vector
 - XXE vulnerability lead to attack retrieve sensitive file from server
 - XXE vulnerability to call the other vulnerability function
 
-## Server Side Request Forgery (SSRF)
+## Server Side Request Forgery (SSRF), A10:2021-Server-Side Request Forgery
 SSRF is the type which the attack forcus the server send the web request the attack wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
 
 - Identify the SSRF exist in the application

@@ -162,7 +162,7 @@ Attack vector
 - XXE vulnerability lead to attack retrieve sensitive file from server
 - XXE vulnerability to call the other vulnerability function
 
-## Server Side Request Forgery (SSRF)
+## Server Side Request Forgery (SSRF), A10:2021-Server-Side Request Forgery
 SSRF is the type which the attack forcus the server send the web request the attack wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
 
 - Identify the SSRF exist in the application
@@ -176,7 +176,7 @@ SSRF is the type which the attack forcus the server send the web request the att
 - Remote Code Execution
 1. Code analyst to discover vulnerability services
 
-## Server Side Template Injection (SSTI)
+## Server Side Template Injection (SSTI), A03:2021-Injection
 Server-Side Template Injection (SSTI) occurs when an adversary is able to inject malicious code into a template that is processed on the web server. The initial step in exploiting SSTI often involves identifying the templating engine used by the web application, which can provide insight into potential vulnerabilities. <br>
 
 - ### SSTI references are provided below.
@@ -191,7 +191,7 @@ There is a function execute by server into the PHP code snippet and could be vul
 - ### Payload
 The list of SSTI vulnerabilities you'd want to examine includes both filter bypass techniques and associated payloads. [Swisskyrepo - SSTI](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md)
 
-## SQL injection
+## SQL injection, A03:2021-Injection
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
 <br>
 1. Error-Based SQL Injection
