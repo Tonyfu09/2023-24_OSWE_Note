@@ -21,7 +21,7 @@ https://charchitverma100.medium.com/an-honest-oswe-2023-review-my-journey-prepar
 
 # OSWE prepare OSWAP Top 10 Related Topic
 
-## Cross Site Scripting (XSS)
+## Cross Site Scripting (XSS), A03:2021-Injection
 
 XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. 
 
@@ -46,11 +46,11 @@ An attacker able to send the request to the target server and store it in the se
 
 As three of XSS above coud happening at the same attack period. Further reading could be the Client XSS and Server XSS from [Types of XSS](https://owasp.org/www-community/Types_of_Cross-Site_Scripting) also helps clear things.
 
-### XSS to RCE
+- ### XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
 good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
-### Cross-Origin Resource Sharing (CORS)
+- ### Cross-Origin Resource Sharing (CORS)
 Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports.
 
 Key header to describe CORS as follows:
@@ -68,7 +68,7 @@ Key header to describe CORS as follows:
      - Access-Control-Max-Age
      - Timing-Allow-Origin
 
-### SameSite Attribute
+- ### SameSite Attribute
 The SameSite attribute lets servers specify whether/when cookies are sent with cross-site requests from [Using HTTP cookies in Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 ## Authentication Bypass

@@ -21,7 +21,7 @@ https://charchitverma100.medium.com/an-honest-oswe-2023-review-my-journey-prepar
 
 # OSWE prepare OSWAP Top 10 Related Topic
 
-## Cross Site Scripting (XSS)
+## Cross Site Scripting (XSS), A03:2021-Injection
 
 XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. 
 
@@ -176,7 +176,7 @@ SSRF is the type which the attack forcus the server send the web request the att
 - Remote Code Execution
 1. Code analyst to discover vulnerability services
 
-## Server Side Template Injection (SSTI)
+## Server Side Template Injection (SSTI), A03:2021-Injection
 Server-Side Template Injection (SSTI) occurs when an adversary is able to inject malicious code into a template that is processed on the web server. The initial step in exploiting SSTI often involves identifying the templating engine used by the web application, which can provide insight into potential vulnerabilities. <br>
 
 - ### SSTI references are provided below.
@@ -191,7 +191,7 @@ There is a function execute by server into the PHP code snippet and could be vul
 - ### Payload
 The list of SSTI vulnerabilities you'd want to examine includes both filter bypass techniques and associated payloads. [Swisskyrepo - SSTI](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md)
 
-## SQL injection
+## SQL injection, A03:2021-Injection
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
 <br>
 1. Error-Based SQL Injection
