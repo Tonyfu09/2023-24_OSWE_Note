@@ -46,11 +46,11 @@ An attacker able to send the request to the target server and store it in the se
 
 As three of XSS above coud happening at the same attack period. Further reading could be the Client XSS and Server XSS from [Types of XSS](https://owasp.org/www-community/Types_of_Cross-Site_Scripting) also helps clear things.
 
-### XSS to RCE
+- ### XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
 good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
-### Cross-Origin Resource Sharing (CORS)
+- ### Cross-Origin Resource Sharing (CORS)
 Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports.
 
 Key header to describe CORS as follows:
@@ -68,11 +68,11 @@ Key header to describe CORS as follows:
      - Access-Control-Max-Age
      - Timing-Allow-Origin
 
-### SameSite Attribute
+- ### SameSite Attribute
 The SameSite attribute lets servers specify whether/when cookies are sent with cross-site requests from [Using HTTP cookies in Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 ## Authentication Bypass
-Login bypass is a method that circumvents the authentication process in a way not intended by the web application. This vulnerability allows an unauthenticated user to access the application's functions, extract sensitive information, and even gain unauthorized access to the application.
+Authentication bypass is a method that circumvents the authentication process in a way not intended by the web application. This vulnerability allows an unauthenticated user to access the application's functions, extract sensitive information, and even gain unauthorized access to the application.
 
 OSWAP [WSTG - Latest Sample](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema) also provides different way of Authentication Bypass. In order to preform authentication bypass, we will require to modify the value of parameter or logicially to make the application trust you are authenticated.
 
