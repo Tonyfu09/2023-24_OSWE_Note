@@ -131,7 +131,7 @@ Indepe explaination from Hacktrike about how Prototype pollution is working [Hac
 3. Reveal and test whether it is possible to control and pollute the objects. <br>
 4. Verify the value change after the pollution, does the program crash or the value of the key is actually got changed?
 
-## XML External Entity (XXE) Attack
+## XML External Entity (XXE) Attack, A05:2021-Security Misconfiguration
 
 XXE (XML External Entity) Attack is a vulnerability that allows an attacker to interfere with an application's processing of XML data. The impact can range from the attacker viewing files on the application server filesystem to more severe consequences like remote code execution.  <br>
 
@@ -139,7 +139,7 @@ XXE (XML External Entity) Attack is a vulnerability that allows an attacker to i
 - [OWASP Description](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
 - [PortSwigger on Blind XXE Vulnerabilities](https://portswigger.net/web-security/xxe/blind)
 
-#### XML Entities, A05:2021-Security Misconfiguration
+#### XML Entities
 
 XML documents can define entities which can be referenced within the document. There are three types of XML entities:
 
