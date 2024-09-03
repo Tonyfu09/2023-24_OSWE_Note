@@ -228,7 +228,7 @@ Insecure deserialization could allow an attacker to control the serialized objec
 Potentiall deserialization/serialization  during the process then discover vulnerabilities in code search.
 
 - ### XmlSerializer 
-
+More serializes and deserializes objects to and from XML documents as [Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
 
 ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
