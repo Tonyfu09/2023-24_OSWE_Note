@@ -147,11 +147,11 @@ XML documents can define entities which can be referenced within the document. T
 3. **Parameter Entities**: Used within DTDs (Document Type Definitions). DTDs define the structure, legal elements, and attributes of an XML document.
 
 #### Steps to Exploit XXE Vulnerability
-- Search that if the application accept to receive the XML parsing in some of field.
-- Enumerate the directory
-- Read the sensitive file
-- Write the file in the target library 
-- Generally, the XML file would not execute directly
+- Check if the application allows XML parsing in specific fields.
+- Enumerate directories for potential vulnerabilities.
+- Access sensitive files.
+- Write files into the target directory/library (e.g., "kal").
+- Typically, XML files are not executed directly, but can still be leveraged in attacks like XXE (XML External Entity).
 
 Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
