@@ -144,9 +144,7 @@ XXE (XML External Entity) Attack is a vulnerability that allows an attacker to i
 XML documents can define entities which can be referenced within the document. There are three types of XML entities:
 1. **Internal Entities**: Defined within the XML document.
 2. **External Entities**: Referenced from an external source.
-3. **Parameter Entities**: Used within DTDs (Document Type Definitions).
-
-DTDs define the structure, legal elements, and attributes of an XML document.
+3. **Parameter Entities**: Used within DTDs (Document Type Definitions). DTDs define the structure, legal elements, and attributes of an XML document.
 
 #### Steps to Exploit XXE Vulnerability
 - Search that if the application accept to receive the XML parsing in some of field.

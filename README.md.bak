@@ -157,9 +157,9 @@ DTDs define the structure, legal elements, and attributes of an XML document.
 
 Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
-Attack vector 
-- XXE vulnerability lead to attack retrieve sensitive file from server
-- XXE vulnerability to call the other vulnerability function
+- ### Attack vector 
+1. An XXE vulnerability was exploited to retrieve sensitive files from the server.
+2. The XXE vulnerability was leveraged to trigger another vulnerability's function.
 
 ## Server Side Request Forgery (SSRF), A10:2021-Server-Side Request Forgery
 SSRF is the type which the attack forcus the server send the web request the attack wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
