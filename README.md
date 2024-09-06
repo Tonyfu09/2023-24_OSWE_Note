@@ -41,9 +41,9 @@ An attacker may be able to use the vulnerability to construct a URL that, if vis
 - An Attack analyst what the plug in that running on the web apps.
 
 3. Stored DOM-based XSS <br>
-An attacker able to send the request to the target server and store it in the server, then use it in a later stage.
+An adversary able to send the request to the target server and store it in the server, then use it in a later stage.
 
-- Server-Site proccess data from the request, an attacker take advantage to stores it, and then includes the data in a later response.Stored XSS is also sometimes referred to as Persistent or Type-II XSS.
+- Server-Site proccess data from the request, an adversary take advantage to stores it, and then includes the data in a later response.Stored XSS is also sometimes referred to as Persistent or Type-II XSS.
 
 As three of XSS above coud happening at the same attack period. Further reading could be the Client XSS and Server XSS from [Types of XSS](https://owasp.org/www-community/Types_of_Cross-Site_Scripting) also helps clear things.
 
