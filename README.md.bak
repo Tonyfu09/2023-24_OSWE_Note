@@ -32,6 +32,7 @@ XSS attacks occur when an attacker uses a web application to send malicious code
 ![image](https://github.com/Tonyfu09/2023-24_OSWE_Note/assets/39818274/88ee655c-5504-4e6d-b921-8296defd30cf)
 
 - Adversary passes parameter to a sink that supports dynamic code execution to hijack other account
+- 
 
 2. Reflected DOM-based XSS <br>
 An attacker may be able to use the vulnerability to construct a URL that, if visited by another application user, will cause JavaScript code supplied by the attacker to execute within the user's browser in the context of that user's session with the application.
@@ -147,11 +148,11 @@ XML documents can define entities which can be referenced within the document. T
 3. **Parameter Entities**: Used within DTDs (Document Type Definitions). DTDs define the structure, legal elements, and attributes of an XML document.
 
 #### Steps to Exploit XXE Vulnerability
-- Search that if the application accept to receive the XML parsing in some of field.
-- Enumerate the directory
-- Read the sensitive file
-- Write the file in the target library 
-- Generally, the XML file would not execute directly
+- Check if the application allows XML parsing in specific fields.
+- Enumerate directories for potential vulnerabilities.
+- Access sensitive files.
+- Write files into the target directory/library (e.g., "kal").
+- Typically, XML files are not executed directly, but can still be leveraged in attacks like XXE (XML External Entity).
 
 Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
