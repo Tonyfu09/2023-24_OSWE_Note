@@ -72,9 +72,9 @@ Key header to describe CORS as follows:
 - ### SameSite Attribute
 The SameSite attribute lets servers specify whether/when cookies are sent with cross-site requests from [Using HTTP cookies in Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-- ### OS Command Injection
+## OS Command Injection
 OS command injection is a vulnerability that allows an Adversary to execute arbitrary commands on the server side or sending the arbitary commands to the targer by someway.
- 
+
 
 ## Authentication Bypass, A07:2021 – Identification and Authentication Failures
 Authentication bypass is a method that circumvents the authentication process in a way not intended by the web application. This vulnerability allows an unauthenticated user to access the application's functions, extract sensitive information, and even gain unauthorized access to the application.
