@@ -51,6 +51,9 @@ As three of XSS above coud happening at the same attack period. Further reading 
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
 good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
+- ### Same-Origin Policy (SOP)
+Same-Origin Policy to prevent one origin from accessing resources on a different origin.
+
 - ### Cross-Origin Resource Sharing (CORS)
 Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports.
 

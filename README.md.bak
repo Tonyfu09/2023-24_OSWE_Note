@@ -51,6 +51,9 @@ As three of XSS above coud happening at the same attack period. Further reading 
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
 good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
+- ### Same-Origin Policy (SOP)
+Same-Origin Policy to prevent one origin from accessing resources on a different origin
+
 - ### Cross-Origin Resource Sharing (CORS)
 Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports.
 
@@ -72,7 +75,7 @@ Key header to describe CORS as follows:
 - ### SameSite Attribute
 The SameSite attribute lets servers specify whether/when cookies are sent with cross-site requests from [Using HTTP cookies in Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-- ### OS Command Injection
+## OS Command Injection
 OS command injection is a vulnerability that allows an Adversary to execute arbitrary commands on the server side or sending the arbitary commands to the targer by someway.
 
 
