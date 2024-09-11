@@ -18,6 +18,8 @@ https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/ <br>
 https://sarthaksaini.com/about-me.html <br>
 3. Charchit Verma's Review
 https://charchitverma100.medium.com/an-honest-oswe-2023-review-my-journey-preparation-and-exam-67d0adcbcde4
+4. Hakansonay's exprience
+https://hakansonay.medium.com/the-oswe-review-and-exam-preparation-guide-e37886046b23
 
 # OSWE prepare OSWAP Top 10 Related Topic
 
