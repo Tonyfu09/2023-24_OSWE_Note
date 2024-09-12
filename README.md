@@ -111,6 +111,7 @@ Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/b
 Review all the functions in the source code. Break them down one by one to check if any function might have vulnerabilities that could lead to authentication bypass.
 
 - ### Filter Bypass
+An event sink is a class or function designed to receive incoming events from another object or function. This is commonly implemented in C++ as callbacks. Other object-oriented languages, such as Java and C#, have built-in support for sinks by allowing events to be fired to delegate functions.
 Damager function - https://www.php.net/manual/en/function.eval.php
 
 - ### PHP Type Juggling
