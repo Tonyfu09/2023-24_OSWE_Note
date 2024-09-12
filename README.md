@@ -110,6 +110,9 @@ Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/b
 - ### Code Review
 Review all the functions in the source code. Break them down one by one to check if any function might have vulnerabilities that could lead to authentication bypass.
 
+- ### Filter Bypass
+Damager function - https://www.php.net/manual/en/function.eval.php
+
 - ### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
 
