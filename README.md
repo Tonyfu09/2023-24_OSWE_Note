@@ -116,7 +116,9 @@ Review all the functions in the source code. Break them down one by one to check
 - Guard, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
 
 Step 1 - Damager function, Since Dolibarr is a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
-Step 2 - Input, 
+Step 2 - Input Validation
+strpos, https://www.php.net/manual/en/function.strpos.php
+
 
 - ### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
