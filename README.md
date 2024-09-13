@@ -116,8 +116,9 @@ Review all the functions in the source code. Break them down one by one to check
 - Guard, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
 
 Step 1 - Damager function, Since Dolibarr is a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
-Step 2 - Input Validation
+Step 2 - Input Validation, understand the filtering
 strpos, https://www.php.net/manual/en/function.strpos.php
+implode, https://www.php.net/manual/en/function.implode.php
 
 
 - ### PHP Type Juggling
