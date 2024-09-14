@@ -117,6 +117,7 @@ Review all the functions in the source code. Break them down one by one to check
 
 Step 1 - Damager function, Since Dolibarr is a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
 Step 2 - Input Validation, understand the filtering
+Step 3 - 
 strpos, https://www.php.net/manual/en/function.strpos.php
 implode, https://www.php.net/manual/en/function.implode.php
 
