@@ -21,7 +21,7 @@ https://sarthaksaini.com/about-me.html <br>
 https://charchitverma100.medium.com/an-honest-oswe-2023-review-my-journey-preparation-and-exam-67d0adcbcde4
 4. Hakansonay's exprience
 https://hakansonay.medium.com/the-oswe-review-and-exam-preparation-guide-e37886046b23
-5. https://github.com/snoopysecurity/OSWE-Prep
+5. Snoopysecurity's OSWE-Prep https://github.com/snoopysecurity/OSWE-Prep
 
 # OSWE prepare OSWAP Top 10 Related Topic
 
