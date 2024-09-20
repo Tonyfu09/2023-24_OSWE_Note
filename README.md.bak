@@ -4,12 +4,13 @@ All Resources below is only for education purpose for everyone who wanted to lea
 !-->
 
 # 2023-24_OSWE Preparation
-The Summary here only forcus on web vulnerabilit and how we could get the initial shell from those web vulnerability. Embark on a comprehensive exploration of various web application vulnerabilities, deeply into understanding the OWASP Top 10.
+The Summary here only forcus on web vulnerability and how we could discover the initial shell from those web vulnerability. Embark on a comprehensive exploration of various web application vulnerabilities, deeply into understanding the OWASP Top 10.
 
 ## Course Outline: Preparing for Web Vulnerability Pentesting and OSWE
 1. Hands on exprience on web vulnerability [PentesterLab](https://pentesterlab.com/) , [White Badge Exercises](https://pentesterlab.com/badges/whitebadge) <br>
 2. Code logic knowledge [Codecademy](https://www.codecademy.com/) <br>
 3. Pentest Course [Pentester Academy](https://www.pentesteracademy.com/) <br>
+4. WSTG from OWASP https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/
 
 ## OSWEer's Preparation Advice
 1. z-r0crypt's Blog
@@ -20,6 +21,7 @@ https://sarthaksaini.com/about-me.html <br>
 https://charchitverma100.medium.com/an-honest-oswe-2023-review-my-journey-preparation-and-exam-67d0adcbcde4
 4. Hakansonay's exprience
 https://hakansonay.medium.com/the-oswe-review-and-exam-preparation-guide-e37886046b23
+5. Snoopysecurity's OSWE-Prep https://github.com/snoopysecurity/OSWE-Prep
 
 # OSWE prepare OSWAP Top 10 Related Topic
 
@@ -117,7 +119,7 @@ Review all the functions in the source code. Break them down one by one to check
 
 Step 1 - Damager function, Since Dolibarr is a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
 Step 2 - Input Validation, understand the filtering
-Step 2 - 
+Step 3 - 
 strpos, https://www.php.net/manual/en/function.strpos.php
 implode, https://www.php.net/manual/en/function.implode.php
 
@@ -236,6 +238,10 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 - ### Skill set in encoding and decoding can be useful for bypassing filters in SQL injection attacks.
 1. Discover escape characters or sequences.
 2. URL-encode the string and add it into the URL as a query parameter.
+
+- ### Code Analysis on SQL Injection
+1. 
+2. 
 
 - ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
