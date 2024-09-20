@@ -240,7 +240,7 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 2. URL-encode the string and add it into the URL as a query parameter.
 
 - ### Code Analysis on SQL Injection
-1. Research does there have user controller variable can affect SQL injection
+1. Review the codes, does there have user controller variable can affect SQL injection
 2. Potential function!!! 
 
 - ### SQL injection Explain and sample testing <br>

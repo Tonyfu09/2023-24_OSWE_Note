@@ -241,6 +241,7 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 
 - ### Code Analysis on SQL Injection
 1. Research does there have user controller variable can affect SQL injection
+2. Potential function!!! 
 
 - ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
