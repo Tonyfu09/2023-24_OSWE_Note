@@ -240,8 +240,9 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 2. URL-encode the string and add it into the URL as a query parameter.
 
 - ### Code Analysis on SQL Injection
-1. Review the codes, does there have user controller variable can affect SQL injection
-2. Potential function!!! 
+1. Review the code to check if any user controller variables can potentially affect SQL injection
+2. Potential function, Potential function, Potential function!!! 
+3. The logic of sanitize
 
 - ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
@@ -316,7 +317,7 @@ Java Deserialization https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet
 https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796 <br>
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax <br>
 
-# Tools (Automatic Tools are Not Allowed During the Exam)
+# Tools (Automatic Tools are Not Allowed During the OSWE Exam)
 MD5 Collisions - https://github.com/cbornstein/pymd5-collisions <br>
 dnspy - .NET Debugger - https://github.com/dnSpy/dnSpy/releases <br>
 JD-GUI - https://java-decompiler.github.io/ <br>
