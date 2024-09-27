@@ -243,6 +243,7 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 1. Review the code to check if any user controller variables can potentially affect SQL injection
 2. Potential function, Potential function, Potential function!!! 
 3. The logic of sanitize the input value
+4. Build your own script to exploit SQL injection vulnerabilities.
 
 - ### SQL injection Explain and sample testing <br>
 https://www.sqlinjection.net/detection/ <br>
