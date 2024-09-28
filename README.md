@@ -262,10 +262,17 @@ Potentiall deserialization/serialization  during the process then discover vulne
 - ### XmlSerializer 
 More serializes and deserializes objects to and from XML documents as [Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
 
-## Resource
+- ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 PostgreSQL Dollar quoted string constants https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/ <br>
 SQL Injection Explain https://www.invicti.com/learn/in-band-sql-injection/ <br>
+
+## Unrestriced File Bypass
+
+- ### File Extension
+
+- ### Resource
+Hactrick https://book.hacktricks.xyz/pentesting-web/file-upload 
 
 # The Box have been pwanded 
 From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview
