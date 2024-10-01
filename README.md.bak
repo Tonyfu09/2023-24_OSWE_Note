@@ -273,8 +273,7 @@ SQL Injection Explain https://www.invicti.com/learn/in-band-sql-injection/ <br>
 
 - #### Step to think more about the file extension
 Step 1 - How the code logic for the user upload their file
-Step 2 - 
-
+Step 2 - Does the filter applied?
 
 
 - ### Resource
