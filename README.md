@@ -245,9 +245,11 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 3. The logic of sanitize the input value
 4. Build your own script to exploit SQL injection vulnerabilities.
 
-- ### SQL injection Explain and sample testing <br>
+- ### SQL injection Explanation and Sample Testing <br>
 https://www.sqlinjection.net/detection/ <br>
 https://portswigger.net/web-security/sql-injection <br>
+https://portswigger.net/web-security/sql-injection/cheat-sheet <br>
+
 
 ## Serialization and Deserialization
 Serialization, as defined by Microsoft, is the conversion of an object's state into a format suitable for persistence or transportation. You can find more about this definition on Microsoft's website. Deserialization, on the other hand, involves reconstructing an object from its serialized form to restore its original state.
