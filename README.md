@@ -11,6 +11,7 @@ The Summary here only forcus on web vulnerability and how we could discover the 
 2. Code logic knowledge [Codecademy](https://www.codecademy.com/) <br>
 3. Pentest Course [Pentester Academy](https://www.pentesteracademy.com/) <br>
 4. WSTG from OWASP https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/
+5. https://portswigger.net/
 
 ## OSWEer's Preparation Advice
 1. z-r0crypt's Blog
