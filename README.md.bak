@@ -83,10 +83,10 @@ Key header to describe CORS as follows:
 - ### SameSite Attribute
 The SameSite attribute lets servers specify whether/when cookies are sent with cross-site requests from [Using HTTP cookies in Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-SameSite restriction levels as below:
-Strict - If a cookie is set with the SameSite=Strict attribute, browsers will not send it in any cross-site requests.
-Lax - The browsers will send the cookie in cross-site request, but only in a few scenarios as the request uses the GET methond and the request resulted from a top-level navigation by the user.
-None - Means disables SameSite restrictions
+SameSite restriction levels as below: <br>
+- Strict - If a cookie is set with the SameSite=Strict attribute, browsers will not send it in any cross-site requests.
+- Lax - The browsers will send the cookie in cross-site request, but only in a few scenarios as the request uses the GET methond and the request resulted from a top-level navigation by the user.
+- None - Means disables SameSite restrictions.
 
 - ### Other XSS preparation
 Create a website, Practice write a script to create a website for scraping sensitive information
@@ -234,7 +234,7 @@ SQL injection (SQLi) is a major web application vulnerability class prevalent in
 - Also known as classic SQL injection, this technique allows the adversary to retrieve data using the same communication channel used to send the malicious query.
 - An example of In-band SQL injection is when the adversary modifies a query to retrieve all the data within a table.
 3. Union-Based SQL Injection
-- The UNION operator is used to combine the result-set of two or more SELECT statements which return as part of the HTTP response.
+- The UNION operator is used to combine the result-set of two or more SELECT statements which return as part of the HTTP response or simply explain is retrieveing the data from other table.
 - The UNION keyword to retrieve data from other tables within the database for sql injection. - [PortSwigger](https://portswigger.net/web-security/sql-injection/union-attacks) <br>
 more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset-collate.html
 4. Blind Boolean-based SQL Injection
