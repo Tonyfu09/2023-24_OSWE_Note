@@ -229,7 +229,7 @@ The list of SSTI vulnerabilities you'd want to examine includes both filter bypa
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
 <br>
 1. Error-Based SQL Injection
-- An Error-Based SQL Injection technique relies on error messages returned by the database server to obtain information about the structure of the database.
+- An Error-Based SQL Injection technique relies on error messages returned by the database server to obtain information about the structure of the database. Therefore, we could test a condition and analysis the return of the error whether it is difference in the application's HTTP resposne.
 2. In-band SQL Injection
 - Also known as classic SQL injection, this technique allows the adversary to retrieve data using the same communication channel used to send the malicious query.
 - An example of In-band SQL injection is when the adversary modifies a query to retrieve all the data within a table.
@@ -256,7 +256,7 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 - ### SQL injection Explanation and Sample Testing <br>
 https://www.sqlinjection.net/detection/ <br>
 https://portswigger.net/web-security/sql-injection <br>
-https://portswigger.net/web-security/sql-injection/cheat-sheet <br>
+SQL injection Cheat Sheet - https://portswigger.net/web-security/sql-injection/cheat-sheet <br>
 
 
 ## Serialization and Deserialization
