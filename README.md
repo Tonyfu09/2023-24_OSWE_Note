@@ -266,8 +266,23 @@ For a practical example of deserializing objects, you can refer to the following
 
 Insecure deserialization could allow an attacker to control the serialized object, enabling the injection of malicious code into the victim's system, thus bypassing file upload security measures. The vulnerability is further detailed as mentioned on [OWASP Top 10 - Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
 
-- ### Java Deserialization
+- ### Java Serialization and Deserialization
 Potentiall deserialization/serialization  during the process then discover vulnerabilities in code search. The deserialization is the process covert the file into a byte stream to recreate the actual Java object in memory
+
+Serialization would be obtain some of code like below:
+import java.io.Serializable;
+
+public static class Person implements Serializable {
+    public String name = null;
+    public int age = 0;
+    public String address = null;
+    public String phoneNumber = null;
+    public String email = null;
+    public String gender = null;
+    public String nationality = null;
+    public boolean isEmployed = false;
+    public double salary = 0.0;
+}
 
 - ### XmlSerializer 
 More serializes and deserializes objects to and from XML documents as [Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
