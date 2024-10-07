@@ -267,14 +267,49 @@ For a practical example of deserializing objects, you can refer to the following
 Insecure deserialization could allow an attacker to control the serialized object, enabling the injection of malicious code into the victim's system, thus bypassing file upload security measures. The vulnerability is further detailed as mentioned on [OWASP Top 10 - Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
 
 - ### Java Serialization and Deserialization
-Potentiall deserialization/serialization  during the process then discover vulnerabilities in code search. The deserialization is the process covert the file into a byte stream to recreate the actual Java object in memory
 
-Serialization would be obtain some of code like below:
+#### Serialization in Java allows you to convert an object into a stream of bytes, which can then be saved to a file, sent over a network, or otherwise transferred. This is done using the Serializable interface from the java.io package. To make an object serializable, the class must implement the Serializable interface.
+- Here is an example that demonstrates how to serialize and deserialize a Person object:
 import java.io.Serializable;
 
 public static class Person implements Serializable {
     public String name = null;
-    public int    age  =   0;
+    public int age = 0;
+    public String address = null;
+    public String phoneNumber = null;
+    public String email = null;
+    public String gender = null;
+    public String nationality = null;
+    public boolean isEmployed = false;
+    public double salary = 0.0;
+}
+
+#### Deserialization is the process of converting a stream of bytes back into a Java object. It reverses the process of serialization, which is the conversion of an object into a byte stream. Deserialization restores the object's state, allowing it to be used in its original form after being transmitted or stored.
+- Potentiall deserialization/serialization  during the process then discover vulnerabilities in code search. The deserialization is the process covert the file into a byte stream to recreate the actual Java object in memory
+import java.io.*;
+
+public class DeserializePerson {
+
+    public static void main(String[] args) {
+        // File that contains the serialized object
+        String filename = "person.ser";
+
+        // Deserialize the object
+        try (ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename))) {
+            // Read the object from the file
+            Person person = (Person) in.readObject();
+
+            // Display the deserialized object
+            System.out.println("Deserialized Person:");
+            System.out.println("Name: " + person.name);
+            System.out.println("Age: " + person.age);
+            System.out.println("Address: " + person.address);
+            System.out.println("Phone: " + person.phoneNumber);
+            System.out.println("Email: " + person.email);
+        } catch (IOException | ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 }
 
 - ### XmlSerializer 
