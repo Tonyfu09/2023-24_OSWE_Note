@@ -357,7 +357,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Stacked|Not Yet|Linux|
 |Fingerprint|Not Yet|Linux|
 |JSON|Not Yet|Windows|
-Arkham
+|Arkham|Java Deserialization, |Windows|
 
 # Vulnhub (only for web vulnerility leads to RCE)
 |BoxName|TechForBox|OS|
