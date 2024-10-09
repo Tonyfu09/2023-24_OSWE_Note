@@ -313,7 +313,7 @@ public class DeserializePerson {
 }
 
 ### .NET Framework Serialization
-XmlSerializer More serializes and deserializes objects to and from XML documents as [Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
+XmlSerializer More serializes and deserializes objects to and from XML documents, Example as follows code for create a class with purchase order, then read and write the purchase order.[Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
 
 ### Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
