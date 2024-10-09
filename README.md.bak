@@ -312,8 +312,8 @@ public class DeserializePerson {
     }
 }
 
-- ### XmlSerializer 
-More serializes and deserializes objects to and from XML documents as [Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
+### .NET Framework Serialization
+XmlSerializer More serializes and deserializes objects to and from XML documents as [Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
 
 - ## Resource
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
@@ -357,7 +357,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Stacked|Not Yet|Linux|
 |Fingerprint|Not Yet|Linux|
 |JSON|Not Yet|Windows|
-|Arkham|Not Yet|Windows|
+|Arkham|Java Deserialization, |Windows|
 
 # Vulnhub (only for web vulnerility leads to RCE)
 |BoxName|TechForBox|OS|
