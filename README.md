@@ -197,7 +197,7 @@ Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml
 2. The XXE vulnerability was leveraged to trigger another vulnerability's function.
 
 ## Server Side Request Forgery (SSRF), A10:2021-Server-Side Request Forgery
-SSRF is the type which the attack forcus the server send the web request the attack wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
+SSRF is the type which the attack forcus the server send the web request the adversary wants. Different types could refer [HackTricks - SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery). 
 
 - Identify the SSRF exist in the application
 1. Send the different version and different method of the api endpoints could gathering some vulnerability, also if it could gain more internal information to create map for the attacker.
@@ -312,7 +312,7 @@ public class DeserializePerson {
     }
 }
 
-### .NET Framework Serialization
+### .NET Framework Class For Serialization
 XmlSerializer More serializes and deserializes objects to and from XML documents, Example as follows code for create a class with purchase order, then read and write the purchase order.[Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
 
 ### Resource
@@ -327,7 +327,6 @@ SQL Injection Explain https://www.invicti.com/learn/in-band-sql-injection/ <br>
 - #### Step to think more about the file extension
 Step 1 - How the code logic for the user upload their file
 Step 2 - Does the filter applied?
-
 
 - ### Resource
 Hactrick https://book.hacktricks.xyz/pentesting-web/file-upload 
@@ -357,7 +356,7 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Stacked|Not Yet|Linux|
 |Fingerprint|Not Yet|Linux|
 |JSON|Not Yet|Windows|
-|Arkham|Java Deserialization, |Windows|
+|Arkham|Java Deserialization |Windows|
 
 # Vulnhub (only for web vulnerility leads to RCE)
 |BoxName|TechForBox|OS|
