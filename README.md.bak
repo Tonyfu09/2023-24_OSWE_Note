@@ -197,7 +197,7 @@ Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml
 2. The XXE vulnerability was leveraged to trigger another vulnerability's function.
 
 ## Server Side Request Forgery (SSRF), A10:2021-Server-Side Request Forgery
-SSRF is the type which the attack forcus the server send the web request the adversary wants. Different types could refer https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery. 
+SSRF is the type which the attack forcus the server send the web request the adversary wants. Different types could refer [HackTricks - SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery). 
 
 - Identify the SSRF exist in the application
 1. Send the different version and different method of the api endpoints could gathering some vulnerability, also if it could gain more internal information to create map for the attacker.
