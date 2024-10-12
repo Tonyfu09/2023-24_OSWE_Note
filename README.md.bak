@@ -202,6 +202,7 @@ SSRF is the type which the attack forcus the server send the web request the adv
 - Identify the SSRF exist in the application
 1. Send the different version and different method of the api endpoints could gathering some vulnerability, also if it could gain more internal information to create map for the attacker.
 2. Identify the SSRF vulnerability to determine if there have been any unexpected commands run on the server side to make an request.
+3. Application flow that requires the server to call external web services.
 
 - Exfiltration
 1. Set up a web server in your environment to gather data sent from the victim.

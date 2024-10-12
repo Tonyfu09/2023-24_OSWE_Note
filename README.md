@@ -204,9 +204,10 @@ SSRF is the type which the attack forcus the server send the web request the adv
 2. Identify the SSRF vulnerability to determine if there have been any unexpected commands run on the server side to make an request.
 3. Application flow that requires the server to call external web services.
 
-- Exfiltration
+- Verify/Exfiltration
 1. Set up a web server in your environment to gather data sent from the victim.
 2. Analyze the data and parameters received from the victim.
+3. 
 
 - Remote Code Execution
 1. Code analyst to discover vulnerability services
