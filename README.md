@@ -209,8 +209,9 @@ SSRF is the type which the attack forcus the server send the web request the adv
 2. Analyze the data and parameters received from the victim.
 3. 
 
-- Remote Code Execution
+- Remote Code Execution for SSRF
 1. Code analyst to discover vulnerability services
+2. Defind the format of payload
 
 ## Server Side Template Injection (SSTI), A03:2021-Injection
 Server-Side Template Injection (SSTI) occurs when an adversary is able to inject malicious code into a template that is processed on the web server. The initial step in exploiting SSTI often involves identifying the templating engine used by the web application, which can provide insight into potential vulnerabilities. <br>
