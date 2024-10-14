@@ -197,20 +197,20 @@ Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml
 2. The XXE vulnerability was leveraged to trigger another vulnerability's function.
 
 ## Server Side Request Forgery (SSRF), A10:2021-Server-Side Request Forgery
-SSRF is the type which the attack forcus the server send the web request the adversary wants. Different types could refer [HackTricks - SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery). 
+SSRF is the type which the attack forcus the server send the web request that the adversary wants. Different types could refer [HackTricks - SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery). 
 
 - Identify the SSRF exist in the application
-1. Send the different version and different method of the api endpoints could gathering some vulnerability, also if it could gain more internal information to create map for the attacker.
+1. Send the different api version and different method of the api endpoints could gathering some vulnerability, also if it could gain more internal information to create map for the attacker.
 2. Identify the SSRF vulnerability to determine if there have been any unexpected commands run on the server side to make an request.
 3. Application flow that requires the server to call external web services.
 
 - Verify SSRF vulnerability
 1. Set up a web server in your environment to gather data sent from the victim.
 2. Analyze the data and parameters received from the victim.
-3. 
 
-- Remote Code Execution
+- Remote Code Execution for SSRF
 1. Code analyst to discover vulnerability services
+2. Defind the format of payload
 
 ## Server Side Template Injection (SSTI), A03:2021-Injection
 Server-Side Template Injection (SSTI) occurs when an adversary is able to inject malicious code into a template that is processed on the web server. The initial step in exploiting SSTI often involves identifying the templating engine used by the web application, which can provide insight into potential vulnerabilities. <br>
