@@ -114,26 +114,26 @@ Here are some questions  might consider asking:
 - 7. what is the sql query can get the passowrd
 - 8. Try to figure it out the important element to cract the token
 - 9. How we can discover more in log system?
-- 10. 
 
 Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/blob/main/Login%20Bypass.md)
 
 - ### Code Review
 Review all the functions in the source code. Break them down one by one to check if any function might have vulnerabilities that could lead to authentication bypass.
 
-- ### Code Review - Filter Bypass 
+- ### Code Review - Filter Bypass with Authentication bypass
 
 - An event sink is a class or function designed to receive incoming events from another object or function. This is commonly implemented in C++ as callbacks. Other object-oriented languages, such as Java and C#, have built-in support for sinks by allowing events to be fired to delegate functions.
 - Guard, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
 
-Step 1 - Damager function, Since Dolibarr is a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
-Step 2 - Input Validation, understand the filtering
-Step 3 - 
+Step 1 - Damager function, such as a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
+Step 2 - Input Validation, understand what is the filtering
+Step 3 - Come with some of escape payload, and test in the application
+Some of function use for compine the string below,
 strpos, https://www.php.net/manual/en/function.strpos.php
 implode, https://www.php.net/manual/en/function.implode.php
 
 
-- ### PHP Type Juggling
+- #### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
 
 PHP Loose comparisons will lead to vulnerability to return the result that didn't expect [PHP Loose comparisons](https://www.php.net/manual/en/types.comparisons.php)
