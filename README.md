@@ -128,9 +128,10 @@ Review all the functions in the source code. Break them down one by one to check
 Step 1 - Damager function, such as a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
 Step 2 - Input Validation, understand what is the filtering
 Step 3 - Come with some of escape payload, and test in the application
-Some of function use for compine the string below,
-strpos, https://www.php.net/manual/en/function.strpos.php
-implode, https://www.php.net/manual/en/function.implode.php
+
+Some of function as below,
+strpos, the function is use for checking the variable of the first position, https://www.php.net/manual/en/function.strpos.php
+implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
 
 
 - #### PHP Type Juggling
