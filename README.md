@@ -260,6 +260,9 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 https://www.sqlinjection.net/detection/ <br>
 https://portswigger.net/web-security/sql-injection <br>
 SQL injection Cheat Sheet - https://portswigger.net/web-security/sql-injection/cheat-sheet <br>
+Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
+PostgreSQL Dollar quoted string constants https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/ <br>
+SQL Injection Explain https://www.invicti.com/learn/in-band-sql-injection/ <br>
 
 
 ## Serialization and Deserialization
@@ -317,11 +320,6 @@ public class DeserializePerson {
 
 ### .NET Framework Class For Serialization
 XmlSerializer More serializes and deserializes objects to and from XML documents, Example as follows code for create a class with purchase order, then read and write the purchase order.[Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
-
-### Resource
-Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
-PostgreSQL Dollar quoted string constants https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/ <br>
-SQL Injection Explain https://www.invicti.com/learn/in-band-sql-injection/ <br>
 
 ## Unrestriced File Bypass
 
