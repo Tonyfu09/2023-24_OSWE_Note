@@ -6,12 +6,14 @@ All Resources below is only for education purpose for everyone who wanted to lea
 # 2023-24_OSWE Preparation
 The Summary here only forcus on web vulnerability and how we could discover the initial shell from those web vulnerability. Embark on a comprehensive exploration of various web application vulnerabilities, deeply into understanding the OWASP Top 10.
 
+
 ## Course Outline: Preparing for Web Vulnerability Pentesting and OSWE
 1. Hands on exprience on web vulnerability [PentesterLab](https://pentesterlab.com/) , [White Badge Exercises](https://pentesterlab.com/badges/whitebadge) <br>
 2. Code logic knowledge [Codecademy](https://www.codecademy.com/) <br>
 3. Pentest Course [Pentester Academy](https://www.pentesteracademy.com/) <br>
 4. WSTG from OWASP https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/
 5. https://portswigger.net/
+
 
 ## OSWEer's Preparation Advice
 1. z-r0crypt's Blog
@@ -24,7 +26,9 @@ https://charchitverma100.medium.com/an-honest-oswe-2023-review-my-journey-prepar
 https://hakansonay.medium.com/the-oswe-review-and-exam-preparation-guide-e37886046b23
 5. Snoopysecurity's OSWE-Prep https://github.com/snoopysecurity/OSWE-Prep
 
+
 # OSWE prepare OSWAP Top 10 Related Topic
+
 
 ## Cross Site Scripting (XSS), A03:2021-Injection
 
@@ -274,7 +278,7 @@ Insecure deserialization could allow an attacker to control the serialized objec
 
 - ### Java Serialization and Deserialization
 
-#### Serialization in Java allows you to convert an object into a stream of bytes, which can then be saved to a file, sent over a network, or otherwise transferred. This is done using the Serializable interface from the java.io package. To make an object serializable, the class must implement the Serializable interface.
+- #### Serialization in Java allows you to convert an object into a stream of bytes, which can then be saved to a file, sent over a network, or otherwise transferred. This is done using the Serializable interface from the java.io package. To make an object serializable, the class must implement the Serializable interface.
 - Here is an example that demonstrates how to serialize and deserialize a Person object:
 import java.io.Serializable;
 
@@ -290,7 +294,7 @@ public static class Person implements Serializable {
     public double salary = 0.0;
 }
 
-#### Deserialization is the process of converting a stream of bytes back into a Java object. It reverses the process of serialization, which is the conversion of an object into a byte stream. Deserialization restores the object's state, allowing it to be used in its original form after being transmitted or stored.
+- #### Deserialization is the process of converting a stream of bytes back into a Java object. It reverses the process of serialization, which is the conversion of an object into a byte stream. Deserialization restores the object's state, allowing it to be used in its original form after being transmitted or stored.
 - Potentiall deserialization/serialization  during the process then discover vulnerabilities in code search. The deserialization is the process covert the file into a byte stream to recreate the actual Java object in memory
 import java.io.*;
 
@@ -323,14 +327,15 @@ XmlSerializer More serializes and deserializes objects to and from XML documents
 
 ## Unrestriced File Bypass
 
-- ### File Extension
+- File Extension. Typically, the application will only permit users to upload files with specific extensions that the application owner has designated.
 
-- #### Step to think more about the file extension
+- ### Step to think more about the file extension
 Step 1 - How the code logic for the user upload their file
 Step 2 - Does the filter applied?
 
 - ### Resource
 Hactrick https://book.hacktricks.xyz/pentesting-web/file-upload 
+
 
 # The Box have been pwanded 
 From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview
