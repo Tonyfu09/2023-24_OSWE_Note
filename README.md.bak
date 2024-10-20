@@ -327,9 +327,9 @@ XmlSerializer More serializes and deserializes objects to and from XML documents
 
 ## Unrestriced File Bypass
 
-- ### File Extension
+- File Extension. Typically, the application will only permit users to upload files with specific extensions that the application owner has designated.
 
-- #### Step to think more about the file extension
+- ### Step to think more about the file extension
 Step 1 - How the code logic for the user upload their file
 Step 2 - Does the filter applied?
 

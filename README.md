@@ -128,6 +128,7 @@ Review all the functions in the source code. Break them down one by one to check
 
 - An event sink is a class or function designed to receive incoming events from another object or function. This is commonly implemented in C++ as callbacks. Other object-oriented languages, such as Java and C#, have built-in support for sinks by allowing events to be fired to delegate functions.
 - Guard, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
+- WAF Ruleset review if there have any request blocking happening in white box attack. 
 
 Step 1 - Damager function, such as a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
 Step 2 - Input Validation, understand what is the filtering
