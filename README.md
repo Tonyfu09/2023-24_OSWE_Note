@@ -150,9 +150,10 @@ Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
 - ### Prototype Pollution
 Prototype pollution often happen when an attacker inject javascript code. The attacker is attempting to control the default values of an object's properties. <br>
-Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
+- Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 
 #### Function constructor decribe as [Javascript function constructor](https://www.geeksforgeeks.org/prototype-in-javascript/) 
+1. Create a function constructor
 <code>
 function Person(name, job, yearOfBirth){   
     this.name= name;
@@ -160,6 +161,15 @@ function Person(name, job, yearOfBirth){
     this.yearOfBirth= yearOfBirth;
 }
 </code>
+2. calculateAge() method gets added to the Prototype property
+Person.prototype.calculateAge = function () {
+    console.log('The current age is: ' + (2019 - this.yearOfBirth));
+}
+3. Create a object person
+let Person1 = new Person('Jenni', 'clerk', 1986);
+console.log(Person1)
+Person1.calculateAge();
+Therefore, the prototype property (calculateAge) allows other objects (such as Person) to inherit all the properties and methods of the constructor function.
 
 Indepe explaination from Hacktrike about how Prototype pollution is working [Hacktricks Prototype Pollution](https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution)
 
