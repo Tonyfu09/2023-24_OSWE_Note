@@ -148,7 +148,7 @@ Simplify PHP Type Juggling - https://secops.group/php-type-juggling-simplified/
 
 ## JavaScript Injection
 
-- ### Prototype Pollution
+### Prototype Pollution
 Prototype pollution often happen when an attacker inject javascript code. The attacker is attempting to control the default values of an object's properties. <br>
 - Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 - Explaination from Hacktrike about how Prototype pollution is working [Hacktricks Prototype Pollution](https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution)

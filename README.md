@@ -154,18 +154,20 @@ Prototype pollution often happen when an attacker inject javascript code. The at
 - Explaination from Hacktrike about how Prototype pollution is working [Hacktricks Prototype Pollution](https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution)
 
 #### Function constructor decribe as [Javascript function constructor](https://www.geeksforgeeks.org/prototype-in-javascript/) 
-1. Create a function constructor
+1. Create a function constructor<br>
 <code>
 function Person(name, job, yearOfBirth){   
     this.name= name;
     this.job= job;
     this.yearOfBirth= yearOfBirth;
 }
-</code>
+</code><br>
+
 2. calculateAge() method gets added to the Prototype property
 Person.prototype.calculateAge = function () {
     console.log('The current age is: ' + (2019 - this.yearOfBirth));
-}
+}<br>
+
 3. Create a object person
 let Person1 = new Person('Jenni', 'clerk', 1986);
 console.log(Person1)
@@ -183,6 +185,7 @@ Therefore, the prototype property (calculateAge) allows other objects (such as P
 2. Add arbitrary properties to prototype objects. <br>
 3. Reveal and test whether it is possible to control and pollute the objects. <br>
 4. Verify the value change after the pollution, does the program crash or the value of the key is actually got changed?
+
 
 ## XML External Entity (XXE) Attack, A05:2021-Security Misconfiguration
 
