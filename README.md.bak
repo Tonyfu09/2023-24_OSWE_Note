@@ -183,9 +183,9 @@ Therefore, the prototype property (calculateAge) allows other objects (such as P
 #### Step to identifies <br>
 1. Discover any functions that allow the addition of arbitrary properties to global object prototypes, which can then be inherited by user-defined objects. <br>
 2. Discover there have any dependencies. <br>
-2. Add arbitrary properties to prototype objects. <br>
-3. Reveal and test whether it is possible to control and pollute the objects. <br>
-4. Verify the value change after the pollution, does the program crash or the value of the key is actually got changed?
+3. Add arbitrary properties to prototype objects. <br>
+4. Reveal and test whether it is possible to control and pollute the objects. <br>
+5. Verify the value change after the pollution, does the program crash or the value of the key is actually got changed? <br>
 
 
 ## XML External Entity (XXE) Attack, A05:2021-Security Misconfiguration

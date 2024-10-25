@@ -185,7 +185,7 @@ Therefore, the prototype property (calculateAge) allows other objects (such as P
 2. Discover there have any dependencies. <br>
 3. Add arbitrary properties to prototype objects. <br>
 4. Reveal and test whether it is possible to control and pollute the objects. <br>
-5. Verify the value change after the pollution, does the program crash or the value of the key is actually got changed?
+5. Verify the value change after the pollution, does the program crash after the value of the key is actually got changed? <br>
 
 
 ## XML External Entity (XXE) Attack, A05:2021-Security Misconfiguration
