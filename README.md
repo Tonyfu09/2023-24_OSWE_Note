@@ -153,6 +153,8 @@ Prototype pollution often happen when an attacker inject javascript code. The at
 - Example from snyk - https://learn.snyk.io/lesson/prototype-pollution/ <br>
 - Explaination from Hacktrike about how Prototype pollution is working [Hacktricks Prototype Pollution](https://book.hacktricks.xyz/pentesting-web/deserialization/nodejs-proto-prototype-pollution)
 
+Another key point is the prototype chain. JavaScript implements inheritance through objects, where each object has a prototype. JavaScript uses this prototype chain to create a layered structure for inheritance such as keyname.__proto__.__proto__.__proto__ , enabling objects to inherit properties and methods from other objects. For more details [mdn web docs - Prototype Chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
 #### Function constructor decribe as [Javascript function constructor](https://www.geeksforgeeks.org/prototype-in-javascript/) 
 1. Create a function constructor<br>
 <code>
