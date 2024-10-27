@@ -11,8 +11,8 @@ The Summary here only forcus on web vulnerability and how we could discover the 
 1. Hands on exprience on web vulnerability [PentesterLab](https://pentesterlab.com/) , [White Badge Exercises](https://pentesterlab.com/badges/whitebadge) <br>
 2. Code logic knowledge [Codecademy](https://www.codecademy.com/) <br>
 3. Pentest Course [Pentester Academy](https://www.pentesteracademy.com/) <br>
-4. WSTG from OWASP https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/
-5. https://portswigger.net/
+4. WSTG from OWASP https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/ <br>
+5. OWASP top 10 Explaination [Portswigger](https://portswigger.net/) <br>
 
 
 ## OSWEer's Preparation Advice
