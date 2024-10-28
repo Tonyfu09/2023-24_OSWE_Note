@@ -105,7 +105,7 @@ Authentication bypass is a method that circumvents the authentication process in
 
 OSWAP [WSTG - Latest Sample](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema) also provides different way of Authentication Bypass. In order to preform authentication bypass, we will require to modify the value of parameter or logicially to make the application trust you are authenticated.
 
-- ### Bypass regular login
+### Bypass regular login
 As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-bypass), one common approach involves leveraging various techniques to attempt to bypass login pages. <br> 
 
 Here are some questions  might consider asking:
@@ -121,10 +121,10 @@ Here are some questions  might consider asking:
 
 Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/blob/main/Login%20Bypass.md)
 
-- ### Code Review
+### Code Review
 Review all the functions in the source code. Break them down one by one to check if any function might have vulnerabilities that could lead to authentication bypass.
 
-- ### Code Review - Filter Bypass with Authentication bypass
+### Code Review - Filter Bypass with Authentication bypass
 
 - An event sink is a class or function designed to receive incoming events from another object or function. This is commonly implemented in C++ as callbacks. Other object-oriented languages, such as Java and C#, have built-in support for sinks by allowing events to be fired to delegate functions.
 - Guard, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
@@ -139,7 +139,7 @@ strpos, the function is use for checking the variable of the first position, htt
 implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
 
 
-- #### PHP Type Juggling
+### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
 
 PHP Loose comparisons will lead to vulnerability to return the result that didn't expect [PHP Loose comparisons](https://www.php.net/manual/en/types.comparisons.php)
