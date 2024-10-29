@@ -139,7 +139,7 @@ strpos, the function is use for checking the variable of the first position, htt
 implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
 
 
-#### PHP Type Juggling
+### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
 
 PHP Loose comparisons will lead to vulnerability to return the result that didn't expect [PHP Loose comparisons](https://www.php.net/manual/en/types.comparisons.php)
@@ -363,8 +363,8 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Popcorn|WebApp Enumeration, File Bypass |Linux|
 |Celestial|Deserialization, NodeJS - Source code Review |Linux|
 |Blocky|WebApp Enumeration, Java - Decompile |Linux|
-|Falafel|PHP & MYSQL - SQL Injection,|Linux|
-|Zipper|Not Yet|Linux|
+|Falafel|PHP & MYSQL - SQL Injection |Linux|
+|Zipper|API Vulnerability |Linux|
 |Unattended|Not Yet|Linux|
 |Help|Not Yet|Linux|
 |Mango|Not Yet|Linux|

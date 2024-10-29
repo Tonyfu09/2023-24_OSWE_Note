@@ -363,8 +363,8 @@ From OSWE Like Box https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkC
 |Popcorn|WebApp Enumeration, File Bypass |Linux|
 |Celestial|Deserialization, NodeJS - Source code Review |Linux|
 |Blocky|WebApp Enumeration, Java - Decompile |Linux|
-|Falafel|PHP & MYSQL - SQL Injection,|Linux|
-|Zipper|Not Yet|Linux|
+|Falafel|PHP & MYSQL - SQL Injection |Linux|
+|Zipper|API Vulnerability, Python Script for Exploitation |Linux|
 |Unattended|Not Yet|Linux|
 |Help|Not Yet|Linux|
 |Mango|Not Yet|Linux|
