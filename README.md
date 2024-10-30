@@ -62,6 +62,7 @@ good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <
 
 - ### Same-Origin Policy (SOP)
 Same-Origin Policy to prevent one origin from accessing resources on a different origin. Same origin policy could as https://123.com/readme and https://123.com/upgrade. But different schema like https://123.com/userID.json or differnet domain like https://abc.123.com/upgrade.
+Testing method by reviewing the attribute of response. Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Allow-Headers, Access-Control-Expose-Headers.
 
 - ### Cross-Origin Resource Sharing (CORS)
 Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports.
