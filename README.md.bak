@@ -73,7 +73,7 @@ The SameSite attribute lets servers specify whether/when cookies are sent in Set
 SameSite restriction levels as below: <br>
 - Strict, If a cookie is set with the SameSite=Strict attribute, browsers will not send it in any cross-site requests.
 - None, Means disables SameSite restrictions.
-- Lax, The browsers will send the cookie in cross-site request, but only in a few scenarios as the request uses the GET methond and the request resulted from a top-level navigation by the user.
+- Lax, The browsers will send the cookie in cross-site request, but only in a few scenarios as the request uses the GET, HEAD or OPTIONS methond and the request resulted from a top-level navigation by the user.
 
 
 ### CSRF Token
