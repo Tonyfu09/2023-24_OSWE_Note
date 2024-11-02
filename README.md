@@ -94,7 +94,7 @@ Key header to describe CORS as follows:
      - Timing-Allow-Origin
 
 ### Other XSS preparation
-Create a website, Practice write a script to create a website for scraping sensitive information
+- Create a website, Practice write a script to create a website for scraping sensitive information
 
 
 ## OS Command Injection
@@ -266,6 +266,7 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 - Content-based, Time-based and Remote Database Fingerprinting - https://owasp.org/www-community/attacks/Blind_SQL_Injection
 5. Time-based SQL Injection
 - In a Time-Based SQL Injection, the adversary introduces a delay in the response to validate the presence of a SQL injection vulnerability. This technique does not rely on retrieving data directly but on observing the time delay in the server's response to determine whether the injection was successful.
+6. Stack Query
 
 - ### Skill set in encoding and decoding can be useful for bypassing filters in SQL injection attacks.
 1. Discover escape characters or sequences.
