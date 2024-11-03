@@ -31,7 +31,6 @@ https://hakansonay.medium.com/the-oswe-review-and-exam-preparation-guide-e378860
 
 
 ## Cross Site Scripting (XSS), A03:2021-Injection
-
 XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. 
 
 ### 1. DOM-based XSS <br>
@@ -109,15 +108,15 @@ OSWAP [WSTG - Latest Sample](https://owasp.org/www-project-web-security-testing-
 ### Bypass regular login
 As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-bypass), one common approach involves leveraging various techniques to attempt to bypass login pages. <br> 
 
-Here are some questions  might consider asking:
-- 1. The user ID you could?
-- 2. How the user obtain the password via signup
-- 3. How the user while they forgot password
-- 4. How the user password save to database
-- 5. How to explore table scheme outsite
-- 6. What is the authentication method for user?
-- 7. what is the sql query can get the passowrd
-- 8. Try to figure it out the important element to cract the token
+Here are some questions might consider:
+- 1. What is the user ID you are using?
+- 2. How does the user obtain their password during signup?
+- 3. What steps does the user take if they forget their password?
+- 4. How is the user's password saved in the database?
+- 5. How can we explore the table schema externally?
+- 6. What authentication method is used for users?
+- 7. What SQL query can be used to retrieve the password?
+- 8. What are the key elements needed to crack the token?
 - 9. How we can discover more in log system?
 
 Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/blob/main/Login%20Bypass.md)
@@ -266,6 +265,7 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 - Content-based, Time-based and Remote Database Fingerprinting - https://owasp.org/www-community/attacks/Blind_SQL_Injection
 5. Time-based SQL Injection
 - In a Time-Based SQL Injection, the adversary introduces a delay in the response to validate the presence of a SQL injection vulnerability. This technique does not rely on retrieving data directly but on observing the time delay in the server's response to determine whether the injection was successful.
+6. Stack Query
 
 - ### Skill set in encoding and decoding can be useful for bypassing filters in SQL injection attacks.
 1. Discover escape characters or sequences.

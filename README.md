@@ -31,7 +31,6 @@ https://hakansonay.medium.com/the-oswe-review-and-exam-preparation-guide-e378860
 
 
 ## Cross Site Scripting (XSS), A03:2021-Injection
-
 XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. 
 
 ### 1. DOM-based XSS <br>
@@ -109,16 +108,16 @@ OSWAP [WSTG - Latest Sample](https://owasp.org/www-project-web-security-testing-
 ### Bypass regular login
 As mentioned by [Hacktricks](https://book.hacktricks.xyz/pentesting-web/login-bypass), one common approach involves leveraging various techniques to attempt to bypass login pages. <br> 
 
-Here are some questions  might consider asking:
-- 1. The user ID you could?
-- 2. How the user obtain the password via signup
-- 3. How the user while they forgot password
-- 4. How the user password save to database
-- 5. How to explore table scheme outsite
-- 6. What is the authentication method for user?
-- 7. what is the sql query can get the passowrd
-- 8. Try to figure it out the important element to cract the token
-- 9. How we can discover more in log system?
+Here are some questions might consider:
+- 1. What is the user ID you are using?
+- 2. How does the user obtain their password during signup?
+- 3. What steps does the user take if they forget their password?
+- 4. How is the user's password saved in the database?
+- 5. How can we explore the table schema externally?
+- 6. What authentication method is used for users?
+- 7. What SQL query can be used to retrieve the password?
+- 8. What are the key elements needed to crack the token?
+- 9. How can we gather more information from the logging system?
 
 Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/blob/main/Login%20Bypass.md)
 
