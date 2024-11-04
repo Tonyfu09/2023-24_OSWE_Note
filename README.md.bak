@@ -117,8 +117,7 @@ Here are some questions might consider:
 - 6. What authentication method is used for users?
 - 7. What SQL query can be used to retrieve the password?
 - 8. What are the key elements needed to crack the token?
-- 9. How we can discover more in log system?
-
+- 9. How can we gather more information from the logging system?
 Login page Check list also avaliable (https://github.com/Mehdi0x90/Web_Hacking/blob/main/Login%20Bypass.md)
 
 ### Code Review
