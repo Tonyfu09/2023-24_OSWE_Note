@@ -266,15 +266,18 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 - In a Time-Based SQL Injection, the adversary introduces a delay in the response to validate the presence of a SQL injection vulnerability. This technique does not rely on retrieving data directly but on observing the time delay in the server's response to determine whether the injection was successful.
 6. Stack Query
 
-- ### Skill set in encoding and decoding can be useful for bypassing filters in SQL injection attacks.
+### Skill set in encoding and decoding can be useful for bypassing filters in SQL injection attacks.
 1. Discover escape characters or sequences.
 2. URL-encode the string and add it into the URL as a query parameter.
 
-- ### Code Analysis on SQL Injection
+
+### Code Analysis on SQL Injection
 1. Review the code to check if any user controller variables can potentially affect SQL injection
 2. Potential function, Potential function, Potential function!!! Be aware the functional that calling behind.
 3. The logic of sanitize the input value
 4. Build your own script to exploit SQL injection vulnerabilities.
+
+(https://book.hacktricks.xyz/pentesting-web/sql-injection/mssql-injection#mssql-user-defined-function-sqlhttp)
 
 - ### SQL injection Explanation and Sample Testing <br>
 https://www.sqlinjection.net/detection/ <br>
