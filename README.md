@@ -270,18 +270,18 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 1. Discover escape characters or sequences.
 2. URL-encode the string and add it into the URL as a query parameter.
 
-
 ### Code Analysis on SQL Injection
 1. Review the code to check if any user controller variables can potentially affect SQL injection
 2. Potential function, Potential function, Potential function!!! Be aware the functional that calling behind.
 3. The logic of sanitize the input value
 4. Build your own script to exploit SQL injection vulnerabilities.
 
-(https://book.hacktricks.xyz/pentesting-web/sql-injection/mssql-injection#mssql-user-defined-function-sqlhttp)
+### User Defined Function
+1. [](https://book.hacktricks.xyz/pentesting-web/sql-injection/mssql-injection#mssql-user-defined-function-sqlhttp)
 
-- ### SQL injection Explanation and Sample Testing <br>
-https://www.sqlinjection.net/detection/ <br>
-https://portswigger.net/web-security/sql-injection <br>
+### SQL injection Explanation and Sample Testing <br>
+SQL Injection Detection - https://www.sqlinjection.net/detection/ <br>
+Portswigger SQL Injection - https://portswigger.net/web-security/sql-injection <br>
 SQL injection Cheat Sheet - https://portswigger.net/web-security/sql-injection/cheat-sheet <br>
 Hacktrick https://book.hacktricks.xyz/pentesting-web/sql-injection <br>
 PostgreSQL Dollar quoted string constants https://www.postgresqltutorial.com/postgresql-plpgsql/dollar-quoted-string-constants/ <br>
