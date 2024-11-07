@@ -217,6 +217,7 @@ Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml
 1. An XXE vulnerability was exploited to retrieve sensitive files from the server.
 2. The XXE vulnerability was leveraged to trigger another vulnerability's function.
 
+
 ## Server Side Request Forgery (SSRF), A10:2021-Server-Side Request Forgery
 SSRF is the type which the attack forcus the server send the web request that the adversary wants. Different types could refer [HackTricks - SSRF](https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery). 
 
@@ -246,6 +247,7 @@ There is a function execute by server into the PHP code snippet and could be vul
 
 - ### Payload
 The list of SSTI vulnerabilities you'd want to examine includes both filter bypass techniques and associated payloads. [Swisskyrepo - SSTI](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md)
+
 
 ## SQL injection, A03:2021-Injection
 SQL injection (SQLi) is a major web application vulnerability class prevalent in many web applications. <br>
@@ -277,7 +279,7 @@ more caution about the collation https://dev.mysql.com/doc/refman/8.0/en/charset
 4. Build your own script to exploit SQL injection vulnerabilities.
 
 ### User Defined Function
-1. (https://book.hacktricks.xyz/pentesting-web/sql-injection/mssql-injection#mssql-user-defined-function-sqlhttp)
+1. [](https://book.hacktricks.xyz/pentesting-web/sql-injection/mssql-injection#mssql-user-defined-function-sqlhttp)
 
 ### SQL injection Explanation and Sample Testing <br>
 SQL Injection Detection - https://www.sqlinjection.net/detection/ <br>
@@ -295,10 +297,10 @@ For a practical example of deserializing objects, you can refer to the following
 
 Insecure deserialization could allow an attacker to control the serialized object, enabling the injection of malicious code into the victim's system, thus bypassing file upload security measures. The vulnerability is further detailed as mentioned on [OWASP Top 10 - Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
 
-- ### Java Serialization and Deserialization
-
-- #### Serialization in Java allows you to convert an object into a stream of bytes, which can then be saved to a file, sent over a network, or otherwise transferred. This is done using the Serializable interface from the java.io package. To make an object serializable, the class must implement the Serializable interface.
+### Java Serialization and Deserialization
+Serialization in Java allows you to convert an object into a stream of bytes, which can then be saved to a file, sent over a network, or otherwise transferred. This is done using the Serializable interface from the java.io package. To make an object serializable, the class must implement the Serializable interface.
 - Here is an example that demonstrates how to serialize and deserialize a Person object:
+```
 import java.io.Serializable;
 
 public static class Person implements Serializable {
@@ -312,9 +314,11 @@ public static class Person implements Serializable {
     public boolean isEmployed = false;
     public double salary = 0.0;
 }
+```
 
-- #### Deserialization is the process of converting a stream of bytes back into a Java object. It reverses the process of serialization, which is the conversion of an object into a byte stream. Deserialization restores the object's state, allowing it to be used in its original form after being transmitted or stored.
+Deserialization is the process of converting a stream of bytes back into a Java object. It reverses the process of serialization, which is the conversion of an object into a byte stream. Deserialization restores the object's state, allowing it to be used in its original form after being transmitted or stored.
 - Potentiall deserialization/serialization  during the process then discover vulnerabilities in code search. The deserialization is the process covert the file into a byte stream to recreate the actual Java object in memory
+```
 import java.io.*;
 
 public class DeserializePerson {
@@ -340,9 +344,11 @@ public class DeserializePerson {
         }
     }
 }
+```
 
 ### .NET Framework Class For Serialization
-XmlSerializer More serializes and deserializes objects to and from XML documents, Example as follows code for create a class with purchase order, then read and write the purchase order.[Microsoft - XmlSerializer] (https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
+More serializes and deserializes objects to and from Microsoft XML documents, Example as follows code for create a class with purchase order, then read and write the purchase order. [Microsoft - XmlSerializer](https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
+
 
 ## Unrestriced File Bypass
 
