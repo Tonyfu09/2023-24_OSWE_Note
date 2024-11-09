@@ -350,6 +350,9 @@ public class DeserializePerson {
 ### .NET Framework Class For Serialization
 More serializes and deserializes objects to and from Microsoft XML documents, Example as follows code for create a class with purchase order, then read and write the purchase order. [Microsoft - XmlSerializer](https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
 
+### PHP deserialization
+
+
 
 ## Unrestriced File Bypass
 
