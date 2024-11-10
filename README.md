@@ -350,6 +350,10 @@ public class DeserializePerson {
 ### .NET Framework Class For Serialization
 More serializes and deserializes objects to and from Microsoft XML documents, Example as follows code for create a class with purchase order, then read and write the purchase order. [Microsoft - XmlSerializer](https://learn.microsoft.com/en-us/dotnet/api/system.xml.serialization.xmlserializer?view=net-8.0)
 
+Example of .NET framwork show to how the leverage the gadget wraps and create an object that you can use as binding source. That means this class allow the adversary to wrap the usefal object to obtain RCE [HackTricks - .NET deserialization](https://book.hacktricks.xyz/pentesting-web/deserialization/basic-.net-deserialization-objectdataprovider-gadgets-expandedwrapper-and-json.net)  
+
+As the resources of gadget that could possible use for exploit, https://github.com/pwntester/ysoserial.net
+
 ### PHP deserialization
 
 
