@@ -214,7 +214,7 @@ XML documents can define entities which can be referenced within the document. T
 
 Detailed Sample and explaination [w3s XML DTD](https://www.w3schools.com/xml/xml_dtd.asp)
 
-- ### Attack vector 
+### Attack vector 
 1. An XXE vulnerability was exploited to retrieve sensitive files from the server.
 2. The XXE vulnerability was leveraged to trigger another vulnerability's function.
 
