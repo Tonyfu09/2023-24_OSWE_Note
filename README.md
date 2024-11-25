@@ -39,7 +39,7 @@ The Document Object Model (DOM) is structured as a tree of objects, typically ma
 The Document Object Model tree is illustrate on w3schools: <br>
 ![image](https://github.com/Tonyfu09/2023-24_OSWE_Note/assets/39818274/88ee655c-5504-4e6d-b921-8296defd30cf)
 
-- Adversary passes parameter to a sink that supports dynamic code execution to hijack other account.
+The adversary supplies a parameter to a sink that supports dynamic code execution, enabling the hijacking of another account.
 - Be aware of the HTML function that can send dynamic content or to load a script on the web page.
 
 ### 2. Reflected DOM-based XSS <br>
