@@ -31,7 +31,7 @@ https://hakansonay.medium.com/the-oswe-review-and-exam-preparation-guide-e378860
 
 
 ## Cross Site Scripting (XSS), A03:2021-Injection
-XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. 
+XSS attacks occur when an adversary uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. 
 
 ### 1. DOM-based XSS <br>
 The Document Object Model (DOM) is structured as a tree of objects, typically manipulated using JavaScript to render HTML in a browser. If an adversary can controler the attribute value and execute through JavaScript function, a DOM-based XSS (Cross-Site Scripting) vulnerability could allow them to control DOM elements. Document Object Model tree is illustrate on w3schools as below,  <br>
@@ -43,12 +43,12 @@ The Document Object Model (DOM) is structured as a tree of objects, typically ma
 3. Common sinks include properties or methods like document.URL, location.search, and document.write.
 
 ### 2. Reflected XSS <br>
-An attacker may be able to use the vulnerability to construct a URL that, if visited by another application user, will cause JavaScript code supplied by the attacker to execute within the user's browser in the context of that user's session with the application.
+An adversary may be able to use the vulnerability to construct a URL that, if visited by another application user, will cause JavaScript code supplied by the attacker to execute within the user's browser in the context of that user's session with the application.
 
 - Highlights
-1. Reflected DOM-based XSS which an application echoes the supplied data in the resposne to the user.
+1. Reflected XSS which an application echoes the supplied data in the resposne to the user.
 2. Server-Site proccess data from the request and put data into the resposne, an adversary take advantage of it.
-3. An Attack analyst what the plug in that running on the web apps.
+3. An Attack analyst what the plug in that running on the web apps, and trying to gain more information from it.
 
 ### 3. Stored XSS <br>
 An adversary able to send the request to the target server and store it in the server, then use it in a later stage.
