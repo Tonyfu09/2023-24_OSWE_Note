@@ -43,12 +43,13 @@ The Document Object Model (DOM) is structured as a tree of objects, typically ma
 3. Common sinks include properties or methods like document.URL, location.search, and document.write.
 
 ### 2. Reflected XSS <br>
-An adversary may be able to use the vulnerability to construct a URL that, if visited by another application user, will cause JavaScript code supplied by the attacker to execute within the user's browser in the context of that user's session with the application.
+An adversary may be able to use the vulnerability to construct a URL that when an application receives data in an HTTP request, the server includes information in response in an unsafe way.
 
 - Highlights
 1. Reflected XSS which an application echoes the supplied data in the resposne to the user.
 2. Server-Site proccess data from the request and put data into the resposne, an adversary take advantage of it.
 3. An Attack analyst what the plug in that running on the web apps, and trying to gain more information from it.
+4. If an adversary can control a script running on the victim's browser, they can exploit this to execute actions within the user's browser and potentially obtain the user's session with the application.
 
 ### 3. Stored XSS <br>
 An adversary able to send the request to the target server and store it in the server, then use it in a later stage.
@@ -67,6 +68,7 @@ Testing method by reviewing the attribute of response. Access-Control-Allow-Orig
 
 ### Cross-Origin Resource Sharing (CORS)
 Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports. As the SOP will be commonly apply on the site, the CORS is a good way to release the permissive for other origin to access reasources.
+- Content type to a non-standard value, which is anything that is not "application/x-www-form-urlencoded", "multipart/form-data", or "text/plain"
 
 ### SameSite Attribute
 The SameSite attribute lets servers specify whether/when cookies are sent in Set-Cookie headers with cross-site requests from [Using HTTP cookies in Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
