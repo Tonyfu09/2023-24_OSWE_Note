@@ -54,20 +54,20 @@ An adversary may be able to use the vulnerability to construct a URL that when a
 ### 3. Stored XSS <br>
 An adversary able to send the request to the target server and store it in the server, then use it in a later stage.
 
-- Server-Site proccess data from the request, an adversary take advantage to stores it, and then includes the data in a later response.Stored XSS is also sometimes referred to as Persistent or Type-II XSS.
+- Highlights
+1. Server-Site proccess data from the request, an adversary take advantage to stores it, and then includes the data in a later response.Stored XSS is also sometimes referred to as Persistent or Type-II XSS.
 
-As three of XSS above coud happening at the same attack period. Further reading could be the Client XSS and Server XSS from [Types of XSS](https://owasp.org/www-community/Types_of_Cross-Site_Scripting) also helps clear things.
+*** As three of XSS above coud happening at the same attack period. Further reading could be the Client XSS and Server XSS from [Types of XSS](https://owasp.org/www-community/Types_of_Cross-Site_Scripting) also helps clear things.
 
 ### XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
-good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
+Practice Lab - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
 ### Same-Origin Policy (SOP)
 Same-Origin Policy to prevent one origin from accessing resources on a different origin. Same origin policy could as https://123.com/readme and https://123.com/upgrade. But different schema like https://123.com/userID.json or differnet domain like https://abc.123.com/upgrade.
-Testing method by reviewing the attribute of response. Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Allow-Headers, Access-Control-Expose-Headers.
 
 ### Cross-Origin Resource Sharing (CORS)
-Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports. As the SOP will be commonly apply on the site, the CORS is a good way to release the permissive for other origin to access reasources.
+Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application to load scripts or other resources from different domains, schemes, or ports. As the SOP will be commonly apply on the site, the CORS is a good way to release the permissive for other origin to access reasources. Testing method by reviewing the attribute of response. Access-Control-Allow-Origin, Access-Control-Allow-Methods, Access-Control-Allow-Headers, Access-Control-Expose-Headers.
 
 - Highlights
 1. Access-Control-Allow-Origin allows for origins, or the value null, or the wildcard *.

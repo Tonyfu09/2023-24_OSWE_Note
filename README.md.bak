@@ -54,13 +54,14 @@ An adversary may be able to use the vulnerability to construct a URL that when a
 ### 3. Stored XSS <br>
 An adversary able to send the request to the target server and store it in the server, then use it in a later stage.
 
-- Server-Site proccess data from the request, an adversary take advantage to stores it, and then includes the data in a later response.Stored XSS is also sometimes referred to as Persistent or Type-II XSS.
+- Highlights
+1. Server-Site proccess data from the request, an adversary take advantage to stores it, and then includes the data in a later response.Stored XSS is also sometimes referred to as Persistent or Type-II XSS.
 
-As three of XSS above coud happening at the same attack period. Further reading could be the Client XSS and Server XSS from [Types of XSS](https://owasp.org/www-community/Types_of_Cross-Site_Scripting) also helps clear things.
+*** As three of XSS above coud happening at the same attack period. Further reading could be the Client XSS and Server XSS from [Types of XSS](https://owasp.org/www-community/Types_of_Cross-Site_Scripting) also helps clear things.
 
 ### XSS to RCE
 XSS Vulnerability Payload List - https://github.com/payloadbox/xss-payload-list <br>
-good to pratice - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
+Practice Lab - https://pentesterlab.com/exercises/xss_and_mysql_file/course <br>
 
 ### Same-Origin Policy (SOP)
 Same-Origin Policy to prevent one origin from accessing resources on a different origin. Same origin policy could as https://123.com/readme and https://123.com/upgrade. But different schema like https://123.com/userID.json or differnet domain like https://abc.123.com/upgrade.
@@ -73,6 +74,7 @@ Cross-Origin Resource Sharing (CORS) is a mechanism that allows an application t
 1. Access-Control-Allow-Origin allows for origins, or the value null, or the wildcard *.
 2. Content type to a non-standard value, which is anything that is not "application/x-www-form-urlencoded", "multipart/form-data", or "text/plain"
 3. Pre-flight check was added to the CORS specification to protect legacy resources from the expanded request options allowed by CORS. 
+4. Be test all different type of request to verfify which one have CORS vulnerability.
 
 Key header to describe CORS as follows:
    - CORS HTTP REQUEST HEADERS
