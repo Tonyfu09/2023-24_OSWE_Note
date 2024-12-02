@@ -213,7 +213,7 @@ XML documents can define entities which can be referenced within the document. T
 1. **Internal Entities**: Defined within the XML document.
 2. **External Entities**: Referenced from an external source, external entities can be spilt into two groups, namely private external entities and public external entities.
 3. **Parameter Entities**: Used within DTDs (Document Type Definitions). DTDs define the structure, legal elements, and attributes of an XML document.
-4. **Unparsed External Entites**: 
+4. **Unparsed External Entites**: ss
 
 #### Steps to Exploit XXE Vulnerability
 - Check if the application allows XML parsing in specific fields.
