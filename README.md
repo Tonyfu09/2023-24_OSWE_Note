@@ -213,7 +213,7 @@ XML documents can define entities which can be referenced within the document. T
 1. **Internal Entities**: Defined within the XML document.
 2. **External Entities**: Referenced from an external source, external entities can be spilt into two groups, namely private external entities and public external entities.
 3. **Parameter Entities**: Used within DTDs (Document Type Definitions). DTDs define the structure, legal elements, and attributes of an XML document.
-4. **Unparsed External Entites**: ss
+4. **Unparsed External Entities**: Non-XML data, also referred to as Unparsed External Entities, are not processed by the XML parser as XML content. This means the parser recognizes the entity but does not parse or process the content of the external resource. Instead, the resource is treated as-is and left for the application to handle. The NDATA keyword is used to explicitly mark the entity as referencing non-XML data.
 
 #### Steps to Exploit XXE Vulnerability
 - Check if the application allows XML parsing in specific fields.
