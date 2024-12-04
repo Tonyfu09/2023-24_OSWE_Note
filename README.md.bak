@@ -138,13 +138,15 @@ Review all the functions in the source code. Break them down one by one to check
 - Guard, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
 - WAF Ruleset review if there have any request blocking happening in white box attack. 
 
-Step 1 - Damager function, such as a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
-Step 2 - Input Validation, understand what is the filtering
-Step 3 - Come with some of escape payload, and test in the application
+Step 1 - Damager function, such as a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php <br>
+Step 2 - Input Validation, understand what is the filtering <br>
+Step 3 - Come with some of escape payload, and test in the application <br>
 
 Some of function as below,
 strpos, the function is use for checking the variable of the first position, https://www.php.net/manual/en/function.strpos.php
 implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
+
+### Code Review -
 
 
 ### PHP Type Juggling
@@ -213,7 +215,7 @@ XML documents can define entities which can be referenced within the document. T
 1. **Internal Entities**: Defined within the XML document.
 2. **External Entities**: Referenced from an external source, external entities can be spilt into two groups, namely private external entities and public external entities.
 3. **Parameter Entities**: Used within DTDs (Document Type Definitions). DTDs define the structure, legal elements, and attributes of an XML document.
-4. **Unparsed External Entities**: Also call non-XML data and not processed by the XML parser as XML content. So this type of entities does not parse or process the content of the external resource. The example is the NDATA keyword to referenced resource is non-XML data.
+4. **Unparsed External Entities**: Non-XML data, also referred to as Unparsed External Entities, are not processed by the XML parser as XML content. This means the parser recognizes the entity but does not parse or process the content of the external resource. Instead, the resource is treated as-is and left for the application to handle. The NDATA keyword is used to explicitly mark the entity as referencing non-XML data.
 
 #### Steps to Exploit XXE Vulnerability
 - Check if the application allows XML parsing in specific fields.

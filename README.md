@@ -138,13 +138,15 @@ Review all the functions in the source code. Break them down one by one to check
 - Guard, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
 - WAF Ruleset review if there have any request blocking happening in white box attack. 
 
-Step 1 - Damager function, such as a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php
-Step 2 - Input Validation, understand what is the filtering
-Step 3 - Come with some of escape payload, and test in the application
+Step 1 - Damager function, such as a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php <br>
+Step 2 - Input Validation, understand what is the filtering <br>
+Step 3 - Come with some of escape payload, and test in the application <br>
 
 Some of function as below,
 strpos, the function is use for checking the variable of the first position, https://www.php.net/manual/en/function.strpos.php
 implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
+
+### Code Review - 
 
 
 ### PHP Type Juggling
