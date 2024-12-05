@@ -135,19 +135,17 @@ Review all the functions in the source code. Break them down one by one to check
 ### Code Review - Filter Bypass with Authentication bypass
 
 - An event sink is a class or function designed to receive incoming events from another object or function. This is commonly implemented in C++ as callbacks. Other object-oriented languages, such as Java and C#, have built-in support for sinks by allowing events to be fired to delegate functions.
-- Guard, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
+- Check whether have a guard clause, In computer programming, a guard is a Boolean expression that must evaluate to true if the execution of the program is to continue in the branch in question. [Guard](https://en.wikipedia.org/wiki/Guard_(computer_science))
 - WAF Ruleset review if there have any request blocking happening in white box attack. 
 
 Step 1 - Damager function, such as a PHP application, we could start by searching for functions like exec(), passthru(), system(), or shell_exec(), eval() https://www.php.net/manual/en/function.eval.php <br>
 Step 2 - Input Validation, understand what is the filtering <br>
 Step 3 - Come with some of escape payload, and test in the application <br>
 
-Some of function as below,
-strpos, the function is use for checking the variable of the first position, https://www.php.net/manual/en/function.strpos.php
-implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
-
-### Code Review - 
-
+Some of function as below:
+- strpos, the function is use for checking the variable of the first position, https://www.php.net/manual/en/function.strpos.php
+- implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
+- get_defined_functions, returns an array of all defined functions that on PHP 4>=4.0.4, PHP5, PHP7, PHP8 [PHP-Get Defined Functions] (https://www.php.net/manual/en/function.get-defined-functions.php) 
 
 ### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
