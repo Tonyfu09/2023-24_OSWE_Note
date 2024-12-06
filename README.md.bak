@@ -142,10 +142,10 @@ Step 1 - Damager function, such as a PHP application, we could start by searchin
 Step 2 - Input Validation, understand what is the filtering <br>
 Step 3 - Come with some of escape payload, and test in the application <br>
 
-Some of function as below:
+Some of function as below could be vulnerable leads to RCE:
 - strpos, the function is use for checking the variable of the first position, https://www.php.net/manual/en/function.strpos.php
 - implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
-
+- get_defined_functions, returns an array of all defined functions that on PHP 4>=4.0.4, PHP5, PHP7, PHP8 [PHP-Get Defined Functions] (https://www.php.net/manual/en/function.get-defined-functions.php) 
 
 ### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 

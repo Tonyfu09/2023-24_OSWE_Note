@@ -142,7 +142,7 @@ Step 1 - Damager function, such as a PHP application, we could start by searchin
 Step 2 - Input Validation, understand what is the filtering <br>
 Step 3 - Come with some of escape payload, and test in the application <br>
 
-Some of function as below:
+Some of the functions listed below could be vulnerable, potentially leading to RCE:
 - strpos, the function is use for checking the variable of the first position, https://www.php.net/manual/en/function.strpos.php
 - implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
 - get_defined_functions, returns an array of all defined functions that on PHP 4>=4.0.4, PHP5, PHP7, PHP8 [PHP-Get Defined Functions] (https://www.php.net/manual/en/function.get-defined-functions.php) 
