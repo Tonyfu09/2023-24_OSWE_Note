@@ -147,6 +147,13 @@ Some of the functions listed below could be vulnerable, potentially leading to R
 - implode, join array elements with a string, https://www.php.net/manual/en/function.implode.php
 - get_defined_functions, returns an array of all defined functions that on PHP 4>=4.0.4, PHP5, PHP7, PHP8 [PHP-Get Defined Functions] (https://www.php.net/manual/en/function.get-defined-functions.php) 
 
+### Code Review - SQL Injection through API endpoints
+
+Step 1: Review all publicly exposed API endpoints of the application.
+Step 2: Analyze and understand the content and data retrieved from the API endpoints.
+Step 3: Test the API endpoints by injecting malicious payloads to observe responses and potentially extract additional information.
+
+
 ### PHP Type Juggling
 PHP does not require explicit type definition in variable declaration. In this case, the type of a variable is determined by the value it stores. [Definition from PHP](https://www.php.net/manual/en/language.types.type-juggling.php) 
 
